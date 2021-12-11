@@ -18,4 +18,4 @@ source <(curl -fsSL "https://git.io/JMn0r") --remove
 # Usage
 * ```apt install <package name>```
 
-               THANKU👻
+               THANKU👻❣️👻
