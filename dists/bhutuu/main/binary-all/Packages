@@ -1,0 +1,60 @@
+Package: T-fetch
+Architecture: all
+Version: 2.0
+Installed-Size: 532
+Maintainer: Suman Kumar ~BHUTUU
+Homepage: https://github.com/BHUTUU/T-fetch
+Depends: bc, jq, termux-api
+Description: A decent fetch written in bash with a cute BHUTUU emog ascii image.
+Filename: dists/bhutuu/main/binary-all/T-fetch.all.deb
+Size: 1028
+MD5Sum: b46286e6c1e2ba29ae46ebb4597baa13
+SHA1: 783edd8c930152c8980072c4874b5d5343ff15e8
+SHA256: 994b0c89112c0325a853dbc46a69cb248ea8fa88489bcb9832495d29c033ebac
+SHA512: 8b562b8e49855166ee3928859d174feebbc30af979c7b377f554d7964c84c7e28d2217d2e6606620c8f4a08764547c401d41388d2bb136a3ce8b26f8281b84aa
+
+Package: TSconsole
+Architecture: all
+Version: 3.0
+Installed-Size: 96552
+Maintainer: Suman Kumar ~BHUTUU
+Homepage: https://github.com/BHUTUU/TSconsole-framework
+Depends: python, python2, sox, php, pv, proot, ncurses-utils, termux-exec, termux-tools
+Description: A framework of pentesting programs.
+Filename: dists/bhutuu/main/binary-all/TSconsole-framework.all.deb
+Size: 1476
+MD5Sum: dd131265a21080eea89035fa394c9ec5
+SHA1: e50b482671669c33d16cc5d35ee16530f90ea1bd
+SHA256: 0a1da1c3087dec8163d10bb485c3a94924ccb47f970e99ff58ac283d4a712ac6
+SHA512: 06814a6fbeceb931d35bf4b5673128be3950c3f28294950812c83c2ed686c72762bdd7385e7e2db3392f6bdcc0deebfc71fd041bf56a7c16d1d67715216c9a9c
+
+Package: cloudflare
+Architecture: all
+Version: 1.0
+Installed-Size: 388
+Maintainer: Suman Kumar ~BHUTUU
+Homepage: https://github.com/BHUTUU/cloudflare-ui
+Depends: git, wget, curl, jq
+Description: User interface for cloudflared, an http port forwarding client.
+Filename: dists/bhutuu/main/binary-all/cloudflare.all.deb
+Size: 1280
+MD5Sum: f2779ad1dc13bb227ab1bf44b999c806
+SHA1: 4c5dd658e33e1a1840f4469b0ad1299156a44cea
+SHA256: c5405f791bee39c2c75fe92c6a6013ad9b997bacdef8114993ad8a016f0ea90e
+SHA512: 545d0ed48421880965c8dca23eb40d2d580c852060b4a16ec793d7d8cc096ac93ab233f5af078f04586dcee9aee3068138777c8ecc3e0d0f080e752075af24ca
+
+Package: dictionary
+Architecture: all
+Version: 1.0
+Installed-Size: 96
+Maintainer: Suman Kumar ~BHUTUU
+Homepage: https://github.com/BHUTUU/dictionary
+Depends: python, python2, pv, sox, git, wget, curl
+Description: A dictionary made in bash and python to find meanings of any word esily using termux command line.
+Filename: dists/bhutuu/main/binary-all/dictionary.all.deb
+Size: 1356
+MD5Sum: 78f7e51f0eac497ecd15a1642bdf1a0a
+SHA1: 0e44e1e1507b14077d84550465cf832fcc07a932
+SHA256: e7372631b0ce6ab7142167f6177f2e75a5c4df98d4cb8435b5b969d679c8a799
+SHA512: 93da7a59cdd9e035160057931fc96398779acdb485505f8ad60b3efd0420de3ca551e4e0a677bc1d1b342fbeb48d238e1283b45a3f10f6f021f2f6e64c7b807c
+
