@@ -13,6 +13,7 @@ source <(curl -fsSL "https://git.io/JMn0r") --remove
 * ```dictionary```
 * ```cloudflare```
 * ```liveserver```
+* ```t-fech```
 
 # Usage
 * ```apt install <package name>```
