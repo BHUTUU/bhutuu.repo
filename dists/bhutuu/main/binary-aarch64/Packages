@@ -1,75 +1,75 @@
 Package: T-fetch
 Architecture: aarch64
 Version: 2.0
-Instaarch64ed-Size: 532
+Installed-Size: 532
 Maintainer: Suman Kumar ~BHUTUU
 Homepage: https://github.com/BHUTUU/T-fetch
 Depends: bc, jq, termux-api
 Description: A decent fetch written in bash with a cute BHUTUU emog ascii image.
 Filename: dists/bhutuu/main/binary-aarch64/T-fetch.aarch64.deb
 Size: 1032
-MD5Sum: 5adf693f3d555615c1ae4c702ff7a79e
-SHA1: 7ffdae8594688fe6389c0d6b53fe457ce3073ea1
-SHA256: 7510cb6ae0a333e8227565b7a058e5c383b8fe091f81a6cb6f66d4b5662754b6
-SHA512: 0b4fd4e964eff6d068a637e09a0ed4da911e8910c37f81969f3e611c5406a863ab72c8fffc0e775420c7bba85a70a7d0d7513a2aed0349f4a5e53a353e0157ef
+MD5Sum: 3a734ca41cbdaaa5ca38bcd0af0a128f
+SHA1: 23ce186d44dc8743f8738dbae61c93907fc985dc
+SHA256: dba9fc47f6bd87098bca756f196904e37e89e04b05dab76715c8b453ddae3675
+SHA512: 10e31d51e741dface6cc7015ef83078d89a7ef3bee81061f99b36e8094b79e6257faf64e0043fb86ac2036b6f5055095cecda270ba9cd533fcd121c5b4b35d91
 
 Package: TSconsole
 Architecture: aarch64
 Version: 3.0
-Instaarch64ed-Size: 96552
+Installed-Size: 96552
 Maintainer: Suman Kumar ~BHUTUU
 Homepage: https://github.com/BHUTUU/TSconsole-framework
 Depends: python, python2, sox, php, pv, proot, ncurses-utils, termux-exec, termux-tools
 Description: A framework of pentesting programs.
 Filename: dists/bhutuu/main/binary-aarch64/TSconsole-framework.aarch64.deb
 Size: 1476
-MD5Sum: 993d264dc4e048aada02074a37432d2f
-SHA1: 65039fb572e5757695d2c1b4729bc0c9e1e5c8ea
-SHA256: 3fec19d52d118c762fc5e1d8773f5ba8bc320084482ca24e4020c055a1b6c994
-SHA512: 26583dd2eeebad61501374af53d68f12b464e83fc4aec47b63907174e37a6327690cbff600aa0e196e1216d911c9897735517a39fdb2379c40d7a96c490467d1
+MD5Sum: 91bd1817ae6fc0053ae14f5070691906
+SHA1: dad1fb15a4bffe3511da91173fa02fba0250ec79
+SHA256: b27586063ad0d766396f3c3bae74d0bbaa263109451e11f382fbf9af2452f005
+SHA512: 13473d5ee95c0b8aec0ba339dbb4ad4b91e36c0bffddb4953a535fffcbb0d701b07cd98ce9fa3d8de9eeb2d475a20656a7b98c96373556d8b6984379d06b7170
 
 Package: cloudflare
 Architecture: aarch64
 Version: 1.0
-Instaarch64ed-Size: 388
+Installed-Size: 388
 Maintainer: Suman Kumar ~BHUTUU
 Homepage: https://github.com/BHUTUU/cloudflare-ui
 Depends: git, wget, curl, jq
 Description: User interface for cloudflared, an http port forwarding client.
 Filename: dists/bhutuu/main/binary-aarch64/cloudflare.aarch64.deb
 Size: 1280
-MD5Sum: dbf6bd8d59e7f3d2f734a47453795cc7
-SHA1: 8e00ba19fd0a0ab764b5b6d8fead1632fdd59846
-SHA256: 51de1192528d8fa6ae8e027c31c4882fc0d2c5edcae712260fcb797e255951fa
-SHA512: 486d6c225c66bdcdfbde13a4c5ee542fe84720096b546aeb937908602c0c50c9f8598df90a024f53e58a72ddac124530816fc3200405a67208596c93a59e7d99
+MD5Sum: 593ce7f8c561c71e032a49928c3623ef
+SHA1: bb3f106c35e73ccd83c8484f40423200cfeaac05
+SHA256: 379795220b5d4e7f191dbb7932407bef5f51992cd0dcf163bc94e26fd3b59e15
+SHA512: 061e148f28fd23bf7647897e1371d45e5a7a7f0f0ea78d1cab9b9bf26ed9384dba1a893e480ad6ce7df6dae6d84f5f36b4dfebab2860ab48d8995e0c757a127c
 
 Package: dictionary
 Architecture: aarch64
 Version: 1.0
-Instaarch64ed-Size: 96
+Installed-Size: 96
 Maintainer: Suman Kumar ~BHUTUU
 Homepage: https://github.com/BHUTUU/dictionary
 Depends: python, python2, pv, sox, git, wget, curl
 Description: A dictionary made in bash and python to find meanings of any word esily using termux command line.
 Filename: dists/bhutuu/main/binary-aarch64/dictionary.aarch64.deb
 Size: 1360
-MD5Sum: 0771ec07629507c4a9627d69af22f41a
-SHA1: 2b90d0866ff6daaaee244d703dab234f14e8896a
-SHA256: 6c3e903c2d30a7fc69631a312766551ccfe5af3958cc99a83a9768d9458ed767
-SHA512: 39f8655677b420cc82ca216309c8987bad26344809a8e764aecf88c41a4df218005e073dd4fbb9c0031e8eee9b64dd1a9a4c827928dfaf1d43fb66eec9e83d99
+MD5Sum: 509a47266ce7fa8ef686e9c10b81f15a
+SHA1: af3c7911ed794a91ee251f34647459d2249e40b2
+SHA256: 31f27302ba6a86b17331212e0123f8f349dc1b5a8b1b78c1244fdb6445c87033
+SHA512: 4f784a4d81ec0855fd34f085ce755b3d1a241cfd978e79dfbae8857630377140d0cb90a8675ffdfa16e973b73bdac64b0899bd20fcf86558c33d03dd0e66c703
 
 Package: liveserver
 Architecture: aarch64
 Version: 1.0
-Instaarch64ed-Size: 464
+Installed-Size: 464
 Maintainer: Suman Kumar ~BHUTUU
 Homepage: https://github.com/BHUTUU/liveserver
 Depends: php
 Description: A program automating php server for localhost:8080.
 Filename: dists/bhutuu/main/binary-aarch64/liveserver.aarch64.deb
 Size: 1420
-MD5Sum: 772e8884117db9575b6ff4a6593bce8f
-SHA1: 4b5a1670939640e6168107de2dd4120f757f3302
-SHA256: b270e996276d372ab5c775b658b7aaa0e11316d8939aaaa4075f5cb63627f6fe
-SHA512: e8111a6147100693d55c2fc38fa3f19b46f251942376909545b48444fe07904ac084dba40429b9f7a28307a0915e8d4b635edfaa50de6738bcacdc86a2f33d96
+MD5Sum: 3ac2f3490c949aa382a6222f9b41f0fe
+SHA1: dd9718811c2f7bcc23306cae74258e192c33c4a6
+SHA256: 5652aa7159012a7e3527cc16c9d077aaa461bf39ba0423b3c86a0fc60c518e48
+SHA512: 4275ed1608b5847d656fa6fa251ea1d961bb18ccd714a0d98871c3a97bd6082a0d048cb079b36c6542a4846631c656a4bdda32c646218394782fb5433740de43
 

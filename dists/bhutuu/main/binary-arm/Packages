@@ -1,75 +1,75 @@
 Package: T-fetch
 Architecture: arm
 Version: 2.0
-Instarmed-Size: 532
+Installed-Size: 532
 Maintainer: Suman Kumar ~BHUTUU
 Homepage: https://github.com/BHUTUU/T-fetch
 Depends: bc, jq, termux-api
 Description: A decent fetch written in bash with a cute BHUTUU emog ascii image.
 Filename: dists/bhutuu/main/binary-arm/T-fetch.arm.deb
 Size: 1028
-MD5Sum: f00acbf026d2e889927d5007ef3933b6
-SHA1: 15cd3a5def81c4ad687b7bfafc2c4dc9eba5996a
-SHA256: 138064f9ce7878d6ded20bb4cea1369d136aa5a01e03f4e45c71288bad973036
-SHA512: ac4f43541cbd6fb5513ecaf372a1eceba993dd51ce03286defc770d00a0a43012216747da98bafb36c297cd51d582f195e71e4def2d49a33c978f5cf4ae41b05
+MD5Sum: 56937069c484d90cbc5fdcfcb0f81bee
+SHA1: 15d791f765faff43d0ef8dd6666cf7eed360d0ef
+SHA256: 3ab278b305519a061eec51b10a05d17226825ffd8e57627ebf8805aab73116ce
+SHA512: 8294251df96313f74a03c37b81d377b601414e335e609e16b0af96571942930d7f9b4f7198122533115d897ef420db0152af70f1bc669cd53eb334be65863d54
 
 Package: TSconsole
 Architecture: arm
 Version: 3.0
-Instarmed-Size: 96552
+Installed-Size: 96552
 Maintainer: Suman Kumar ~BHUTUU
 Homepage: https://github.com/BHUTUU/TSconsole-framework
 Depends: python, python2, sox, php, pv, proot, ncurses-utils, termux-exec, termux-tools
 Description: A framework of pentesting programs.
 Filename: dists/bhutuu/main/binary-arm/TSconsole-framework.arm.deb
-Size: 1476
-MD5Sum: 58c2fc2a900aba740dac2ad87dba73b3
-SHA1: c1f9a4146eb5ff59bf16a8b9c768904e0ab2b809
-SHA256: 844b983973594eb7b60755ce11aae450ff450343bd68b23b1b140df0dbf9a01e
-SHA512: c382da308418ff0e0d26418902288402d789ef8402a976b8779ca29fd015d6243ca531a27e7e02230cf3244105a4eee4f2474cfb1dc4d4144e60f9b69705bf48
+Size: 1472
+MD5Sum: 0a92b3ebee60313dcd6897f0f16e9398
+SHA1: d091cf080a047df17764c3c0f79e33f9d71c79ea
+SHA256: fa60108dbdce53e0427111bdd2497b8073120fead64fb74e25ca5cd9b87ca1ad
+SHA512: 0146397706a122b51518a1b64f8c1883b7cfc2369eab541b48bb07a974ffea342632d1fe82afbc7244f7af70ae5bb0b5d1fcebbd75ae86a329892de2dfc93b3b
 
 Package: cloudflare
 Architecture: arm
 Version: 1.0
-Instarmed-Size: 388
+Installed-Size: 388
 Maintainer: Suman Kumar ~BHUTUU
 Homepage: https://github.com/BHUTUU/cloudflare-ui
 Depends: git, wget, curl, jq
 Description: User interface for cloudflared, an http port forwarding client.
 Filename: dists/bhutuu/main/binary-arm/cloudflare.arm.deb
-Size: 1276
-MD5Sum: 8644ffcc124f29607e87c67e31734172
-SHA1: 3c51c9124e1b4fc06b19d162ec84064da9c499df
-SHA256: 72fe81d8ff20823650cc55997a713cd5d0a21c7fb0786226030f8f385daeec0f
-SHA512: 0200da364ab3b8e88f1d3e0415dd3854e153b06dab3a411f67b476b4c989c25dd65617b7dfc2b1624991432bc5f32c297223d9f448adaee60f0c58b76fda3cf0
+Size: 1280
+MD5Sum: cc6f70d4369cf4a3523fdda6738cec03
+SHA1: 08545a2e83cc2b7b66779dd698c9a8304e5d1bae
+SHA256: 95be996acfdf8d13882617d7a064b04a37ee8a8cb8b969ff43cc05e3b6b20f2e
+SHA512: 9520f0367b4a3493df48341185839741840f671d1f12bb05431336e729b065db2daf5960e49ae73fcdf93fe95b43be5a6ce392d3d022f8669ec3f409c162faa0
 
 Package: dictionary
 Architecture: arm
 Version: 1.0
-Instarmed-Size: 96
+Installed-Size: 96
 Maintainer: Suman Kumar ~BHUTUU
 Homepage: https://github.com/BHUTUU/dictionary
 Depends: python, python2, pv, sox, git, wget, curl
 Description: A dictionary made in bash and python to find meanings of any word esily using termux command line.
 Filename: dists/bhutuu/main/binary-arm/dictionary.arm.deb
 Size: 1360
-MD5Sum: 0fef44b9b40394fa744ddd6d6dfe45c6
-SHA1: 9e18d9bdfece48e49330222ac273a3805d942710
-SHA256: e260e76f13c31f602f106e6d85727189bafca88f60b94c4eeba4cb3a45574534
-SHA512: 0b5cb908b2837d604423ad406596b8701865e51be993ff8a6e6ded502d76a2371e6cdfae535d8a77da307dc38f5147bc323d57c39b1476a7f0fb5838baf5cc49
+MD5Sum: 25649f1eb2b4a642157cc4a5287b8d2e
+SHA1: c6e815437243bed8496a5902157c35ad015deed8
+SHA256: fc42693ed274a0ea944eb8d2c8644bcb829456e715bcfa4a0137f8668ec755b2
+SHA512: 3575fc91d798da1030ae466f339c20d0da08fb5dc82a7e260e4a86e84c433c505388cea84234d5d4b98afce74c47135ab3d9fe230bcf69d3ad775b2b2f1bf8db
 
 Package: liveserver
 Architecture: arm
 Version: 1.0
-Instarmed-Size: 464
+Installed-Size: 464
 Maintainer: Suman Kumar ~BHUTUU
 Homepage: https://github.com/BHUTUU/liveserver
 Depends: php
 Description: A program automating php server for localhost:8080.
 Filename: dists/bhutuu/main/binary-arm/liveserver.arm.deb
 Size: 1420
-MD5Sum: 814c8037a45205720a5a22f32676ddbc
-SHA1: 9590e75c882c17e39fbe03c95c26d52ea1b7dfc0
-SHA256: 91d1a7016edb24c78cdbbfe4009397db2b33514c3d54650e20786056c20c60a6
-SHA512: a853973f1979a40655f6181ec35da3b2cbafeab1c11776c41eb137e6f63703c9c67dbd194f83174bb7ed80ff26ddf03ec14a63c1b8847298321d97a6a703bd86
+MD5Sum: c089d249c130dea4970b46079fb22c88
+SHA1: 6c89e7d1b0b8bc4a769656f0586d8fc5824cab7e
+SHA256: caf515695afa5a2cd0f86e67b449d3ce6ae18b0da5858bb912af44f486cf6555
+SHA512: 35bc0c5162d648e5f5405e2b7135d41baa1a213a05fd3933161851ab472205d21054f9bacc0b375c190b47cfb9ec5e9bdc324db778683fad9d49541d5021bd65
 
