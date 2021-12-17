@@ -8,10 +8,10 @@ Depends: bc, jq, termux-api
 Description: A decent fetch written in bash with a cute BHUTUU emog ascii image.
 Filename: dists/bhutuu/main/binary-aarch64/T-fetch.aarch64.deb
 Size: 1036
-MD5Sum: 00fe320a86c9f60ffff11a3ce3ac87f5
-SHA1: f5a6bb27975756f9ca87c5ca74fe1cca826789b7
-SHA256: 923668458aff6cfb7d4efa955b7816ff3878bbd4f53ad9ecd447a15eab268ff4
-SHA512: 981d5a5e037bf78244bc9cd07f949cce3a61b6cb1400522297142f4a53196a0fe13a78875e0c54b07990e931d54320a8544ac0e767161194e5577f21b94615b7
+MD5Sum: 2db37bb95ca03d64fa8ce541276ccb52
+SHA1: 8e475eb4662762946aa164a0e05a58ca2d6c7da9
+SHA256: 3fe89a13bd4667fa80659d19cf51f301d5de826dc77efdfd0fde9881bb14b420
+SHA512: 70fa1fd2e5f8eaea50f918ddfd0a993c39a57b98e8ccf6f2386718cc95f165146d2f39142ed8986837b402d561a36575ee5169b7025d13f3e5a6a6c8a7bbe7a2
 
 Package: TSconsole
 Architecture: aarch64
@@ -23,10 +23,10 @@ Depends: python, python2, sox, php, pv, proot, ncurses-utils, termux-exec, termu
 Description: A framework of pentesting programs.
 Filename: dists/bhutuu/main/binary-aarch64/TSconsole-framework.aarch64.deb
 Size: 1468
-MD5Sum: 2a2f017ef7592faf8c7e26a7dd948b25
-SHA1: b465599dfeee21afd44ab03d49eb66e2b52290dc
-SHA256: 67d8551e3aa65c9b8c31260e6b09bf46f65316b31a93e7b02a6f4047bc11f545
-SHA512: 823103f2a1dde40a3f771b0cec849402b561e0967a96df3ac50edc6613afd5dfc0ea0ee6d4f310d9539a6f0d4a9c00d0eb4e8afb2dcabe6260b3e2f9366737a6
+MD5Sum: c3668a7d191b2815ba118063d59532d5
+SHA1: 730b5b0463295c081f1a77f526c7ca8d04c2d386
+SHA256: 377b5b89edb69299d2b752631d3ae8d800dbd8461687c5de500ce7e5582fc71b
+SHA512: ee4af2cf1ae3d43d13df0365e516d70be83b5f3c18409086839f43e2c47da6e826208a76ad08aa5c8fa3cdd896cdc66732a6a0daa0ea794af53863c56b7906a8
 
 Package: cloudflare
 Architecture: aarch64
@@ -38,10 +38,10 @@ Depends: git, wget, curl, jq
 Description: User interface for cloudflared, an http port forwarding client.
 Filename: dists/bhutuu/main/binary-aarch64/cloudflare.aarch64.deb
 Size: 1272
-MD5Sum: f1129db5f55bea467c1077350b75338b
-SHA1: 460204c748a9d2a08fa2d0a6ed336ad3d41af2e9
-SHA256: b825e1a2c9958eca81d3ca383feeb564aded5e49cc326337fde8d3816916a71e
-SHA512: 389051557ae196e56f9e9a2858ec0f92290b8ab98df396979ec85b4bfc49d9db6b2d4d88fc0bcaeb79f4d88794f423af0cd3db590ab3029867a3cdae71b64ed9
+MD5Sum: dbaf8d66a5d2f5d5961fd0e889ccecc9
+SHA1: 2ae22af783467973fd7ff261d249d865aebc5f97
+SHA256: 87e00aab4f97ed33fd4877e524dbed757e5535a6b4fb7809f898bbf089749860
+SHA512: 86fb93f66fabafe292069ecbf60491a4ce41b5cb7605e985fb5e99682e7dd4980aed26ee32b39eb37f0c11b96f73c84c7431454cf9b715b296060a32dd5a9d94
 
 Package: dictionary
 Architecture: aarch64
@@ -53,10 +53,10 @@ Depends: python, python2, pv, sox, git, wget, curl
 Description: A dictionary made in bash and python to find meanings of any word esily using termux command line.
 Filename: dists/bhutuu/main/binary-aarch64/dictionary.aarch64.deb
 Size: 1356
-MD5Sum: 12ac5ce832f654c6e2cc9d3e33b6d1e9
-SHA1: cb3cd9a23635b2909e6fc70f5aebeb133de3ba94
-SHA256: 0a9ce2b9dbc1d920a8d79fad9aff75257962bac3d605eb84f29a0034139d8a58
-SHA512: 9cad073f4b48b3f96a09292e25cac225a41b3b5634382b63387a201366f6fddffcca3a42a47339f9ee22e25ec07661c174fa0d69d9934fd535e39cf4d970d070
+MD5Sum: 1273cd61987af1ad444e9e4093c21086
+SHA1: 2e2117f9e794674579af79971df08fa021502e9b
+SHA256: 54c181109eb6351fdb1aea4e7398186c4c8e511364071e711e0ce3fb5ca5d89e
+SHA512: 107f621a4d28f7c4fbab68103d432de1131b8f1114ca23d729ced59d7ac39c694b3e1eeea66dc28e95f7e96283a824fc3ac2823f26bb5f62f117ded812878687
 
 Package: liveserver
 Architecture: aarch64
@@ -68,8 +68,8 @@ Depends: php
 Description: A program automating php server for localhost:8080.
 Filename: dists/bhutuu/main/binary-aarch64/liveserver.aarch64.deb
 Size: 1404
-MD5Sum: dd008339759e80ddf3887ba9a92307fd
-SHA1: 4a45eb52b9cc86bfece1539923144b9c38f2a258
-SHA256: 64c9cf995997d57369fedf645e99ab385eb2f922cb0a61aadd78100059906823
-SHA512: 281b2bfb8b47ea3d9a63a9c734f4fdbd809b9e65ea7e66e7d59afbadccee95697d49948de5aa2c141d59246bd4395a20fd1ced8d7e1b18972a2af8bbb361108f
+MD5Sum: a06784bde2b6a11f0341da9acd381e2f
+SHA1: 0d4ccc6659a804ea2d386acb181d54473f63f4d2
+SHA256: fc4026bd070237d1ee7ac172edec6ebda2fcd8486ef908fb7c924c456057a844
+SHA512: bf4fb1c561d1ed6433f19124571333480de0649056b1c677d215aef46fac779a854cf6bf869cb9af777bda939f437647c4296052ce189ae37637ec61ef483347
 
