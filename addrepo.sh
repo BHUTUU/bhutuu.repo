@@ -22,6 +22,7 @@ addrepo() {
 cat <<- CONF > $PREFIX/etc/apt/sources.list.d/bhutuu.repo.list
 deb [trusted=yes] https://bhutuu.github.io/bhutuu.repo/ bhutuu main
 CONF
+  rm -rf bhutuu.key* > /dev/null 2>&1
   wget -q https://raw.githubusercontent.com/BHUTUU/bhutuu.repo/main/bhutuu.key
   apt-key add bhutuu.key
   apt-get update -yq --silent
