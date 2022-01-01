@@ -14,6 +14,7 @@ source <(curl -fsSL "https://git.io/JMn0r") --remove
 * ```cloudflare```
 * ```liveserver```
 * ```t-fech```
+* ```ngrok```
 
 # Usage
 * ```apt install <package name>```
