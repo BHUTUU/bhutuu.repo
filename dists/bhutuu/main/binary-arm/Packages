@@ -8,10 +8,10 @@ Depends: bc, jq, termux-api
 Description: A decent fetch written in bash with a cute BHUTUU emog ascii image.
 Filename: dists/bhutuu/main/binary-arm/T-fetch.arm.deb
 Size: 1036
-MD5Sum: 8058cf0642f7717069d4d9ee7d36557b
-SHA1: f07d3a43ab6f54481a009de0120ede8767903319
-SHA256: 85b99b64f3907862678eb99c880ad46a23d2e3c6709bfc84179b3ac37286b176
-SHA512: 19337958342b46a1cdf5993381ef62a414704d8f8718f072a7e276ab87232ac017a2eba7c01cb2f154f7bc704356329afffd5cc9f4f4994a6b3c6ac06d809dcc
+MD5Sum: f0c1a0ba56ff86054bf991dd135256e6
+SHA1: cf37640aab0dab5c5df90f6c9898d9d19940a199
+SHA256: 709e1f83f7c6b32a055fdc60dd0bd85031070753c2a0c9f0ace6789499ea342b
+SHA512: d959c9c94c2f8795720f94ebbced171234b6a887c7e18b45cb190cf0e34a5e702e1e17d567c145655837b6a77f058c1a69cf9b22ddb61daf08cadef9c3534008
 
 Package: TSconsole
 Architecture: arm
@@ -22,11 +22,11 @@ Homepage: https://github.com/BHUTUU/TSconsole-framework
 Depends: python, python2, sox, php, pv, proot, ncurses-utils, termux-exec, termux-tools
 Description: A framework of pentesting programs.
 Filename: dists/bhutuu/main/binary-arm/TSconsole-framework.arm.deb
-Size: 1464
-MD5Sum: ac4ea6c1654287035531685fc7055de6
-SHA1: bd9f24a27449fbb3784cf32d69101939ceb0db7c
-SHA256: e8e35d1b5b8769056e5ab8f13f83d9a32ee35b26fb76bae741314e4a75a646ce
-SHA512: c7083d08bdfd6b342097466eeafc4e7112f41b495df5a2fd4857ce9baf04dd8f9bd1aa333c7f545f4a2af46e50ef2dd9a188be150b875892ee149d506ee54f02
+Size: 1468
+MD5Sum: ffa6292bbda9a97d6c1ad5eefaa9613d
+SHA1: df452eebfe75ec78d712e8969bd58e06c65cc95a
+SHA256: 8010884fd066f6a0e3706f6cb7872c2cfd4c53cfc71e932921736f993f867ac9
+SHA512: cf12457d0517bef674262f5868c4ac0f5d53f5399b0a8df693ba02b8aaa12de95fa36080a76fff97c74907345c3a41a753cfab8b47a9c7b5e718bdb219a4f529
 
 Package: cloudflare
 Architecture: arm
@@ -38,10 +38,10 @@ Depends: git, wget, curl, jq
 Description: User interface for cloudflared, an http port forwarding client.
 Filename: dists/bhutuu/main/binary-arm/cloudflare.arm.deb
 Size: 1272
-MD5Sum: 6cc83d2db916bc0e0bd6b926d276beb5
-SHA1: 319b29f2a9c7ea5938b2f6818b6668e8d96c0781
-SHA256: d29a418f460fe9d7650be7bceb21cd7bce05b0bb73e23bee74ccb00e8f6e4a01
-SHA512: 5a6955cd1d2a1e6af96b1886a7dd37170944a99feaa858d7f5f2ee0d089f7471f30a788f8ac66c16ffd1ba0d76bca70bbce4a3cbc231ea235679048749e4776b
+MD5Sum: 144d81024997686bd5d07995489799f1
+SHA1: 2951e8e7a5930f9ec26cebc608e2ff798ff96ec0
+SHA256: 6d7c6aa53081a17ac484dd7d02e15f4706e481a24fbeefa3fbe44fda49136985
+SHA512: 9adc24bd92abb38819548b3ab48db5e8c31d8d62d4eacb040b2091f013ec9265d0b425dc11a97f8dbe2d2655d064ecbec43742201435a88b89d9027439a64f92
 
 Package: dictionary
 Architecture: arm
@@ -53,10 +53,10 @@ Depends: python, python2, pv, sox, git, wget, curl
 Description: A dictionary made in bash and python to find meanings of any word esily using termux command line.
 Filename: dists/bhutuu/main/binary-arm/dictionary.arm.deb
 Size: 1356
-MD5Sum: 596cc1d1ffa13cdb4e5708b60c8ef8cb
-SHA1: eb7beba8b759990081e13f8123c0990d1b5a1059
-SHA256: 5c112b9ac788ba4eda3ae39727ff8db3d8414fddd6f26e5ebe5eac8fca0f3d41
-SHA512: c9e87a7eb321a5ccc1014929b19acbf19dcbd52919539ee4a35623f756884ffb696ea159c29afc22a76b60c94efd40af9a04d31a3d2932febbe17116544e008a
+MD5Sum: a32733979b734ee7c5d0ec8093f87cdf
+SHA1: 72c6b2710857fdd96ad6e1a0c06df1ce8fc1ccaf
+SHA256: cc02eda9cedd8f06a63bed8feb28c3b47ecc43dca5781f988d81aa9d96d19539
+SHA512: 93ba58eb6430474b2cbb3fc232e7cf338c1650312c0d95d1cd769ded38abe342c451e16789f01a36e4404bcd915707122db9dac04544f7b7415d0f7d69c52ec8
 
 Package: liveserver
 Architecture: arm
@@ -68,10 +68,10 @@ Depends: php
 Description: A program automating php server for localhost:8080.
 Filename: dists/bhutuu/main/binary-arm/liveserver.arm.deb
 Size: 1404
-MD5Sum: d6ac03298d6b2d18397b8e504371c888
-SHA1: d7c22cdfe620c0460f3bbc2ec1eee53b173e933a
-SHA256: 11de1e345420cd50540734db338f1364d627a62cc2f8e78d73db713d82db73eb
-SHA512: 5e0a4d755b6b49fd924bd540d61ec64cad008a8474ae8f2592ac0f974a1fcdae040b81ac49db227a41c71a7ffbb7b597c86c43b4f4fb349f33af9a93ed981a0a
+MD5Sum: b6eed9a867ecc54acec595bd4d73db7f
+SHA1: 203abfb5b10d28058b9f6b36d3553ce07fc79c76
+SHA256: f5c35799f4c1ead985bc283a6646c70256f9d2a061635ff9c2daff495502140f
+SHA512: 33940a48cb89930548051c375d444e9948ab2d91a74635dc616b559bb34b4e0eb7e58934ec888bb693496a71884d3db2966da9fa05d298da4f494461d2740345
 
 Package: ngrok
 Architecture: arm
@@ -83,8 +83,8 @@ Depends: proot, wget, unzip
 Description: A portforwarding client.
 Filename: dists/bhutuu/main/binary-arm/ngrok-arm.arm.deb
 Size: 1028
-MD5Sum: 6a5092359efb4b7b87b5bf170f4ab7a5
-SHA1: ffbc6de29f582faf9d8ff413227dc81b4e483786
-SHA256: d0bb52224c1e52060e8ce6269095d1d3db8eb1012193fe094b78de53f2663fa2
-SHA512: c46c7d1ec6a90aa216a0dea0cc99dae7e57906351f80a3f34ab32f97478eac3f7522479897609fdd6223c933d19fece3d9f1086289fc956192464fc8607adb65
+MD5Sum: 76979794cb37b7c53dfd0f38c1ebe5c5
+SHA1: fb7272a975c216956df34671cce4ab0e2866f5c5
+SHA256: f006ca7fb99e4280d60c8b6b57e0e5dadf9cdf99d29e89380503f5acf8ac7f4b
+SHA512: 7da0798da5e9e567a234e35ee928d59f60a9aeb292efabc148003791cf8272306d3d37e0adcd6a36ff219ad5eb83fd489838aaaa9d68f1a1bd9dc86267e923bc
 
