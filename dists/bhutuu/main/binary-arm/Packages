@@ -7,11 +7,11 @@ Homepage: https://github.com/BHUTUU/T-fetch
 Depends: bc, jq, termux-api
 Description: A decent fetch written in bash with a cute BHUTUU emog ascii image.
 Filename: dists/bhutuu/main/binary-arm/T-fetch.arm.deb
-Size: 1036
-MD5Sum: f0c1a0ba56ff86054bf991dd135256e6
-SHA1: cf37640aab0dab5c5df90f6c9898d9d19940a199
-SHA256: 709e1f83f7c6b32a055fdc60dd0bd85031070753c2a0c9f0ace6789499ea342b
-SHA512: d959c9c94c2f8795720f94ebbced171234b6a887c7e18b45cb190cf0e34a5e702e1e17d567c145655837b6a77f058c1a69cf9b22ddb61daf08cadef9c3534008
+Size: 1032
+MD5Sum: 5757f0eb834e3b3c22cf0b194d211170
+SHA1: cf1c119650e39dd257df426e72ef45557a8ac50b
+SHA256: 3500aa518de35bb0a9fde993b1a1bbb379c01de65893baa0c6dce84f3b4e5198
+SHA512: b87a3c1b268c693e1aa72f94b205704212750e8d84f12df0bb22ee4edc4438cf1f64da014a24bc86d68d4d1345ff663198a7fe3610bf90746fad785b9b838487
 
 Package: TSconsole
 Architecture: arm
@@ -23,10 +23,10 @@ Depends: python, python2, sox, php, pv, proot, ncurses-utils, termux-exec, termu
 Description: A framework of pentesting programs.
 Filename: dists/bhutuu/main/binary-arm/TSconsole-framework.arm.deb
 Size: 1468
-MD5Sum: ffa6292bbda9a97d6c1ad5eefaa9613d
-SHA1: df452eebfe75ec78d712e8969bd58e06c65cc95a
-SHA256: 8010884fd066f6a0e3706f6cb7872c2cfd4c53cfc71e932921736f993f867ac9
-SHA512: cf12457d0517bef674262f5868c4ac0f5d53f5399b0a8df693ba02b8aaa12de95fa36080a76fff97c74907345c3a41a753cfab8b47a9c7b5e718bdb219a4f529
+MD5Sum: 2695395beac69fe0e6faee834c80cde9
+SHA1: d2838e6ff07cb878dfed4c7847ed74dc6afcb894
+SHA256: 51ca38c80a93ff78811005eae668bb76959bf03d99afc39fd4eb51a7f75f97d1
+SHA512: bca173f13b67d2cd138a4bd0f1364e913aee47ef7bc1eef6ad0dfd1d4be9f3f792239f55ab2c541502d3854a9a067f0be4ce14399d048235420ec3df61369da8
 
 Package: cloudflare
 Architecture: arm
@@ -37,11 +37,11 @@ Homepage: https://github.com/BHUTUU/cloudflare-ui
 Depends: git, wget, curl, jq
 Description: User interface for cloudflared, an http port forwarding client.
 Filename: dists/bhutuu/main/binary-arm/cloudflare.arm.deb
-Size: 1272
-MD5Sum: 144d81024997686bd5d07995489799f1
-SHA1: 2951e8e7a5930f9ec26cebc608e2ff798ff96ec0
-SHA256: 6d7c6aa53081a17ac484dd7d02e15f4706e481a24fbeefa3fbe44fda49136985
-SHA512: 9adc24bd92abb38819548b3ab48db5e8c31d8d62d4eacb040b2091f013ec9265d0b425dc11a97f8dbe2d2655d064ecbec43742201435a88b89d9027439a64f92
+Size: 1268
+MD5Sum: 38d8099bc7bd77ed0981afa88b808d57
+SHA1: 94a962670722a709aea8a5b331455d73ab87c279
+SHA256: 1997a26a59ae3042ceb5e3bdf9dfee2d953ab13323ebf84a604941c61dfbacbf
+SHA512: 7b89192f740b225b061604b8deed224fe6c2bc6f8a635424c0e4a0f69cf91c1858b43a227935d4145683f7c1dd7934f5fb3b0ecf6f6a6ff48c244abb4ec235c5
 
 Package: dictionary
 Architecture: arm
@@ -53,10 +53,10 @@ Depends: python, python2, pv, sox, git, wget, curl
 Description: A dictionary made in bash and python to find meanings of any word esily using termux command line.
 Filename: dists/bhutuu/main/binary-arm/dictionary.arm.deb
 Size: 1356
-MD5Sum: a32733979b734ee7c5d0ec8093f87cdf
-SHA1: 72c6b2710857fdd96ad6e1a0c06df1ce8fc1ccaf
-SHA256: cc02eda9cedd8f06a63bed8feb28c3b47ecc43dca5781f988d81aa9d96d19539
-SHA512: 93ba58eb6430474b2cbb3fc232e7cf338c1650312c0d95d1cd769ded38abe342c451e16789f01a36e4404bcd915707122db9dac04544f7b7415d0f7d69c52ec8
+MD5Sum: a0d46a8574a738e7defd02ec9ceb80dc
+SHA1: 9edbac42a08fb86abca7eed595c73dda6c0a4ffb
+SHA256: 28ae66462a00a912b9189d0d132111564eda24b783a3084c3a7f5ca3b9eb0f1d
+SHA512: 12529153e9a5f00b036b72d523bf3961aa8f2ec003d81d2d4d59ec383d9ef93f3b91fe82b0c22de20098d4bc590bd11a51ea7f7d2f578477124781bede827098
 
 Package: liveserver
 Architecture: arm
@@ -67,11 +67,26 @@ Homepage: https://github.com/BHUTUU/liveserver
 Depends: php
 Description: A program automating php server for localhost:8080.
 Filename: dists/bhutuu/main/binary-arm/liveserver.arm.deb
-Size: 1404
-MD5Sum: b6eed9a867ecc54acec595bd4d73db7f
-SHA1: 203abfb5b10d28058b9f6b36d3553ce07fc79c76
-SHA256: f5c35799f4c1ead985bc283a6646c70256f9d2a061635ff9c2daff495502140f
-SHA512: 33940a48cb89930548051c375d444e9948ab2d91a74635dc616b559bb34b4e0eb7e58934ec888bb693496a71884d3db2966da9fa05d298da4f494461d2740345
+Size: 1400
+MD5Sum: 2833f199d4cbe41c1afc1110c9b9c3da
+SHA1: 6a987b045592eb77ae50d8c7a4506ab316ee3670
+SHA256: 0401a08ad356b4c8cbd0f5823a243ef00b43f207bedbccd377d112f252837539
+SHA512: eeb45aecb18f24776063defbf71806959388f276cee979613b235091ab3b40934ce0483a7b020c40f28fa1485b60893208490f680e4f6db3f0cc0aaaeb8ab57c
+
+Package: metasploit
+Architecture: arm
+Installed-Size: 100
+Maintainer: Suman Kumar ~BHUTUU
+Version: 6.0.45
+Homepage: https://www.metasploit.com/
+Depends: apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git, libffi, libgmp, libiconv, libpcap, libsqlite, libtool, libxml2, libxslt, make, ncurses, ncurses-utils, openssl, pkg-config, postgresql, readline, resolv-conf, ruby2, tar, termux-elf-cleaner, termux-tools, unzip, wget, zip, zlib
+Description: Advanced open-source platform for developing, testing and using exploit code. (instarmer)
+Filename: dists/bhutuu/main/binary-arm/metasploit.arm.deb
+Size: 2844
+MD5Sum: 44750228f14fe1a07ce49541a40c4b54
+SHA1: f8bc339f8f5252c84262b62100440c8f7fc16a3c
+SHA256: 5b584d089c6138bde9a082d5304302ea628ddb3a769d18eaef8705ea9c587c2b
+SHA512: cac07b352b8d2eda896f6c48c974d280f5741764596985f05055daec7dc51d617f6171f22896d6482cebad95d755784dde25a517aaec63d9e518f3bb3882d290
 
 Package: ngrok
 Architecture: arm
@@ -83,8 +98,8 @@ Depends: proot, wget, unzip
 Description: A portforwarding client.
 Filename: dists/bhutuu/main/binary-arm/ngrok-arm.arm.deb
 Size: 1028
-MD5Sum: 76979794cb37b7c53dfd0f38c1ebe5c5
-SHA1: fb7272a975c216956df34671cce4ab0e2866f5c5
-SHA256: f006ca7fb99e4280d60c8b6b57e0e5dadf9cdf99d29e89380503f5acf8ac7f4b
-SHA512: 7da0798da5e9e567a234e35ee928d59f60a9aeb292efabc148003791cf8272306d3d37e0adcd6a36ff219ad5eb83fd489838aaaa9d68f1a1bd9dc86267e923bc
+MD5Sum: 11b40fcaed71db36421dabe399ee1494
+SHA1: 252c4079796d70d4af6ae197d894d9a9bb5d0f28
+SHA256: 32ab2039076b7f8b0f2cfc77f45d6ca1100f4ac6ffb5d0609dd319bcf7fe27d5
+SHA512: 305cdcb21187ed31d5b962d1aa4d800d202d0c2a40a245f744ad93aefdc18c6abd092927be9b9f97174fcf78ce1b24656aaa5eb3d600f55baefea5063b13199b
 
