@@ -8,10 +8,10 @@ Depends: bc, jq, termux-api
 Description: A decent fetch written in bash with a cute BHUTUU emog ascii image.
 Filename: dists/bhutuu/main/binary-arm/T-fetch.arm.deb
 Size: 1032
-MD5Sum: 5757f0eb834e3b3c22cf0b194d211170
-SHA1: cf1c119650e39dd257df426e72ef45557a8ac50b
-SHA256: 3500aa518de35bb0a9fde993b1a1bbb379c01de65893baa0c6dce84f3b4e5198
-SHA512: b87a3c1b268c693e1aa72f94b205704212750e8d84f12df0bb22ee4edc4438cf1f64da014a24bc86d68d4d1345ff663198a7fe3610bf90746fad785b9b838487
+MD5Sum: 7b8eaaff0f24a15d3d36e8a6d319cc28
+SHA1: 1ae8f8c0cc80abe9ec37b6d323871a555b9bfdaf
+SHA256: 70abf1f900c30fd3f022b50e2325b73a697d1e284901a34c8a8d9c089a475481
+SHA512: 4bc63dab300aa22f92c74466ee0dbc2d79f8d206c4054fd04cd91826ed8cbab1defb387a846e49c200feb21296d8e2587f5bdb6bb221c7e6723e5fd1cb9d3091
 
 Package: TSconsole
 Architecture: arm
@@ -23,10 +23,10 @@ Depends: python, python2, sox, php, pv, proot, ncurses-utils, termux-exec, termu
 Description: A framework of pentesting programs.
 Filename: dists/bhutuu/main/binary-arm/TSconsole-framework.arm.deb
 Size: 1468
-MD5Sum: 2695395beac69fe0e6faee834c80cde9
-SHA1: d2838e6ff07cb878dfed4c7847ed74dc6afcb894
-SHA256: 51ca38c80a93ff78811005eae668bb76959bf03d99afc39fd4eb51a7f75f97d1
-SHA512: bca173f13b67d2cd138a4bd0f1364e913aee47ef7bc1eef6ad0dfd1d4be9f3f792239f55ab2c541502d3854a9a067f0be4ce14399d048235420ec3df61369da8
+MD5Sum: 1edce149672076300b18a35672932e02
+SHA1: 992e8f28eea8e83a238b68557e0956ad77ea4461
+SHA256: f20f4594d54e47d423bcd74fe51ea3d9604f1485ae7edaeb8a0ee66292ee1fbb
+SHA512: 25e2a73aec4b1a2027eb614aae93381d16a057cfb9173d97e147274e11f120fea77b4b652190341c9e9947f06be7dc0c55875e3c7c9ccd0d62f3d49a033eb567
 
 Package: cloudflare
 Architecture: arm
@@ -37,11 +37,11 @@ Homepage: https://github.com/BHUTUU/cloudflare-ui
 Depends: git, wget, curl, jq
 Description: User interface for cloudflared, an http port forwarding client.
 Filename: dists/bhutuu/main/binary-arm/cloudflare.arm.deb
-Size: 1268
-MD5Sum: 38d8099bc7bd77ed0981afa88b808d57
-SHA1: 94a962670722a709aea8a5b331455d73ab87c279
-SHA256: 1997a26a59ae3042ceb5e3bdf9dfee2d953ab13323ebf84a604941c61dfbacbf
-SHA512: 7b89192f740b225b061604b8deed224fe6c2bc6f8a635424c0e4a0f69cf91c1858b43a227935d4145683f7c1dd7934f5fb3b0ecf6f6a6ff48c244abb4ec235c5
+Size: 1272
+MD5Sum: fbbe20ef9a686c7718bc937b12ca42ef
+SHA1: cb0a3d458c89507bb3fabcce4ca34e462d9f2456
+SHA256: 812d7b92fa9ab63fcfeb297e8cc78f8082c31bbeb0ec3d0584aae58590787216
+SHA512: 9e0b4109d6cb6c4df43967f183d379ec0f5b5a1d9417ca08f99b8c3be579145ff78d4f20407fba36b669e042073924af4e83bc5bde990ab9fd9b73880a6328a0
 
 Package: dictionary
 Architecture: arm
@@ -53,25 +53,25 @@ Depends: python, python2, pv, sox, git, wget, curl
 Description: A dictionary made in bash and python to find meanings of any word esily using termux command line.
 Filename: dists/bhutuu/main/binary-arm/dictionary.arm.deb
 Size: 1356
-MD5Sum: a0d46a8574a738e7defd02ec9ceb80dc
-SHA1: 9edbac42a08fb86abca7eed595c73dda6c0a4ffb
-SHA256: 28ae66462a00a912b9189d0d132111564eda24b783a3084c3a7f5ca3b9eb0f1d
-SHA512: 12529153e9a5f00b036b72d523bf3961aa8f2ec003d81d2d4d59ec383d9ef93f3b91fe82b0c22de20098d4bc590bd11a51ea7f7d2f578477124781bede827098
+MD5Sum: d08798fd3f00671cb4f911dc7070dc93
+SHA1: 659b5abf6dc933cce4f6f2d3cbfb6a4b7c48d9e7
+SHA256: 783419f14ba2701eaf2db067302d6b3589bca5c6bf59c9bbe995b5b5fb08a889
+SHA512: 8b6e1fc56d2d0dea099ce0eddb759a5aa95606d99471903e42f5ab67587fe4dab8ef52adcb19bccdd28446b4f9ca283665e40507500c2fbeb1ef50f95894fe1e
 
 Package: liveserver
 Architecture: arm
 Version: 1.0
-Installed-Size: 464
+Installed-Size: 92
 Maintainer: Suman Kumar ~BHUTUU
 Homepage: https://github.com/BHUTUU/liveserver
 Depends: php
 Description: A program automating php server for localhost:8080.
 Filename: dists/bhutuu/main/binary-arm/liveserver.arm.deb
-Size: 1400
-MD5Sum: 2833f199d4cbe41c1afc1110c9b9c3da
-SHA1: 6a987b045592eb77ae50d8c7a4506ab316ee3670
-SHA256: 0401a08ad356b4c8cbd0f5823a243ef00b43f207bedbccd377d112f252837539
-SHA512: eeb45aecb18f24776063defbf71806959388f276cee979613b235091ab3b40934ce0483a7b020c40f28fa1485b60893208490f680e4f6db3f0cc0aaaeb8ab57c
+Size: 2492
+MD5Sum: f42ba0faf081fc96ba3e40a72b0ff8be
+SHA1: d570984daed8b8611741773a3554a3d218802ac9
+SHA256: 659a9944a52cfb6356fdf50d397df98e08c782a8b51bcc58c3e8b3a84228d018
+SHA512: 88277a462e10b09c33685cec921b1c3c7deca7e0e360adf13c4c9b55a8cc8218892598af3ce85d571929be1b09af3af13c8e5bb6424c867e91d602a92bd0c224
 
 Package: metasploit
 Architecture: arm
@@ -82,11 +82,11 @@ Homepage: https://www.metasploit.com/
 Depends: apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git, libffi, libgmp, libiconv, libpcap, libsqlite, libtool, libxml2, libxslt, make, ncurses, ncurses-utils, openssl, pkg-config, postgresql, readline, resolv-conf, ruby2, tar, termux-elf-cleaner, termux-tools, unzip, wget, zip, zlib
 Description: Advanced open-source platform for developing, testing and using exploit code. (instarmer)
 Filename: dists/bhutuu/main/binary-arm/metasploit.arm.deb
-Size: 2844
-MD5Sum: 44750228f14fe1a07ce49541a40c4b54
-SHA1: f8bc339f8f5252c84262b62100440c8f7fc16a3c
-SHA256: 5b584d089c6138bde9a082d5304302ea628ddb3a769d18eaef8705ea9c587c2b
-SHA512: cac07b352b8d2eda896f6c48c974d280f5741764596985f05055daec7dc51d617f6171f22896d6482cebad95d755784dde25a517aaec63d9e518f3bb3882d290
+Size: 2848
+MD5Sum: 224092218d3b380f6518e4ea6a710ccc
+SHA1: 8cd20d9b8b473b5bbb49345d9f7fdaacc7471e39
+SHA256: 7db8773fdc9116fb8e5c4f6ee651cd8347118387f9929df02b3e36989498b5f6
+SHA512: c1c8697bb074d489a98a2cfef7c44cb659036a4ac93f27fd020ee49e99a5fd8eaf4f1cabdd5a782e462b0e65984dd040d3e7361aadb7f2c03134fb31c80ec884
 
 Package: ngrok
 Architecture: arm
@@ -98,8 +98,8 @@ Depends: proot, wget, unzip
 Description: A portforwarding client.
 Filename: dists/bhutuu/main/binary-arm/ngrok-arm.arm.deb
 Size: 1028
-MD5Sum: 11b40fcaed71db36421dabe399ee1494
-SHA1: 252c4079796d70d4af6ae197d894d9a9bb5d0f28
-SHA256: 32ab2039076b7f8b0f2cfc77f45d6ca1100f4ac6ffb5d0609dd319bcf7fe27d5
-SHA512: 305cdcb21187ed31d5b962d1aa4d800d202d0c2a40a245f744ad93aefdc18c6abd092927be9b9f97174fcf78ce1b24656aaa5eb3d600f55baefea5063b13199b
+MD5Sum: f147488e61c83305f12cac5b68c1910f
+SHA1: c771618f916a1a18ddbd29facd6ac8790722c611
+SHA256: d8aba0ed410f936b73e97beb81a2610b3a2b79b2a1b4986b79b08a65ca77f2dc
+SHA512: 2b17ea5f135e225f67cbdc3dbf64847f95c5fe2d645abcfeb9b93016fabf5bef9c1e727d8fd086a4ce84af127454257d883c1f560b0387e542d2db506d02e649
 
