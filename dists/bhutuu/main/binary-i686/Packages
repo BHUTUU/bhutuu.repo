@@ -8,10 +8,10 @@ Depends: bc, jq, termux-api
 Description: A decent fetch written in bash with a cute BHUTUU emog ascii image.
 Filename: dists/bhutuu/main/binary-i686/T-fetch.i686.deb
 Size: 1036
-MD5Sum: f9ea7f0895c83c641b26d71aa55c1aa5
-SHA1: c3f7323ffeee616dfebe7c16282d496153daf50d
-SHA256: 1f511950ba25481207641828bd41ba9fdd58b2edad99465db2a9a360c634e7ae
-SHA512: d4b77fbd9c17017a06b5795cbe692170db0756b9d9faf7e8c882629df180ab1501492ffc6ea86bae79e491ca22e79286d811ecf0d351ed9cd464185df141ce7f
+MD5Sum: ad88735ae9f9b3f2994a2429b1db5566
+SHA1: 5cc38020efba9543ce5e5d954f58d7573fceb71a
+SHA256: 5ca577b62bcb4f82c8739ee3780c4866446626ea7a233dfffb49eb6ec3628767
+SHA512: 83e82e0a7a8536e5988b608ade7b1fdb9ce645e8d87b66b602b112026f011451fb145dc209fcdb6c1b459aee5d14a6eb3272d0ab65fae353a4b41e266162d909
 
 Package: TSconsole
 Architecture: i686
@@ -22,11 +22,11 @@ Homepage: https://github.com/BHUTUU/TSconsole-framework
 Depends: python, python2, sox, php, pv, proot, ncurses-utils, termux-exec, termux-tools
 Description: A framework of pentesting programs.
 Filename: dists/bhutuu/main/binary-i686/TSconsole-framework.i686.deb
-Size: 1468
-MD5Sum: a7d279df7710cd5f2a3eb7afbb5b42e6
-SHA1: 370716106cae440b5140311ab8723a7d9c061c86
-SHA256: b62d8952a5a2c572f2720aea4661a0e56133a76aa775ab19bcbe289e54a09f38
-SHA512: de9f350db9fa7c246a1526a49146bf15c62c703650203393eb29a62ed924e66d49e1e23b57887903429c0c47c6b6678b471cae0bddbae39f1bb8477d2053245a
+Size: 1472
+MD5Sum: 5a6dc26b6ec5aef790e9a3560416ac61
+SHA1: e840ad26675bc837d67e5a19e5bbae79c74f1369
+SHA256: f925c2632fa630ac73f7cf4920f7e3c345ec28b61509488bc4c8ea6528f20df5
+SHA512: 629e3d01d901c7e1b95595e3b269d815b3257aa66a5f38794e9dd964e0997fd82b99349dd4451c841d079d9a93800d7d5c14c888523de857a8c4adc83684d047
 
 Package: cloudflare
 Architecture: i686
@@ -38,10 +38,10 @@ Depends: git, wget, curl, jq
 Description: User interface for cloudflared, an http port forwarding client.
 Filename: dists/bhutuu/main/binary-i686/cloudflare.i686.deb
 Size: 1272
-MD5Sum: 8179495c3aeca027b7999041c030a454
-SHA1: 6a7ae110fa69ec27590e62d3638ef92f91b56f42
-SHA256: a8494399a9289d0c8e91b8d05ed7bbc7254fb380c1876d2787777fd0d7e047d5
-SHA512: d9e9b7e77252cb121bff34b37fddfcfca17d747907a60cff3d56df275a0c2a7aa904c44b02fb6cc62cb0613e117a04de4540d16acc7c7c60a8aaa22efad4ed82
+MD5Sum: 9b6bf4dd73ef377355e8c9f8b262913a
+SHA1: 57c2b1ac56f49830bd24f7522854caae5c94670e
+SHA256: 26a25fd341f3b0e8394b4ad115982e83977e7959480a9e2e41876f7e1244aa56
+SHA512: 3d9882e1caae7115265feebe73291a70a608b9dce13bf47b55643d976698431bbd66903c1d9fd707488af9243b736e40eb24ed18f83ace3f40c2da8ce363bb81
 
 Package: dictionary
 Architecture: i686
@@ -52,11 +52,11 @@ Homepage: https://github.com/BHUTUU/dictionary
 Depends: python, python2, pv, sox, git, wget, curl
 Description: A dictionary made in bash and python to find meanings of any word esily using termux command line.
 Filename: dists/bhutuu/main/binary-i686/dictionary.i686.deb
-Size: 1356
-MD5Sum: 266ac4c2f962bd5654f0d16505869da0
-SHA1: 5b1eefea89fd9b2094b10375e033371889e0af58
-SHA256: ed363ea24429f21030049a67f83684ab08f64565f27468a28e2a3c40d8234d49
-SHA512: e42baebe7241430014690226b4762d04a5610a8cc5b90d68070ec4f9dd7b04ea396bb70ec8fd05b5f438e35c2616a1eef50c4a1de8784848ba66a27aee6d1d39
+Size: 1352
+MD5Sum: 904834fa09fb1079916f5dc27c4255bf
+SHA1: e1855a090e3455fbe6e94614a19eaeec605bd400
+SHA256: 130474f614112ffbb843f5512e4876d510bcac50d4de74c79ddd37a474cdff2e
+SHA512: bbc1d6fe0f14bc96f2eec984f4099fb2419c978c62f1754c1e903bc46304b4f613c77ef04143eabb4095d4364dc949aa29f71d579cc152a6feaa7e9e12f69eac
 
 Package: liveserver
 Architecture: i686
@@ -67,11 +67,11 @@ Homepage: https://github.com/BHUTUU/liveserver
 Depends: php
 Description: A program automating php server for localhost:8080.
 Filename: dists/bhutuu/main/binary-i686/liveserver.i686.deb
-Size: 2496
-MD5Sum: 9123ca91da7b55512b5ce093a11b8521
-SHA1: 88e5a21c038244685a8a11b9318ff2e85048f1eb
-SHA256: 728aa92f4f3c27aecbcffc799eda4544dcef7ff7e248f705675518947837afae
-SHA512: 11f2921f3a9cba6ec92356322e8a61ca34db0f221a0eb6af62dbf4a483c1290ac4e9fbc568b8e91f0a6a7bf8a40406d997f0048f709552553060dd94a3237bfe
+Size: 2492
+MD5Sum: 69f4ba65b886ee98dbb7969ed236e994
+SHA1: 08526c9e4326e8c0bc49210c2da1b488094f9afa
+SHA256: 232e737ab939d58aa973ee084f4d6451d7d0fe8ee0b9edabaa1036911efabdfc
+SHA512: fcf9366f0f014f4adc9a89605dd37b94be80fcf6a42e6af8b8b7987e71221e108819cc58fa50cbf0ce40a1cbb7b8c3ab630d896d128a0c2f098377cb249267c1
 
 Package: metasploit
 Architecture: i686
@@ -83,10 +83,10 @@ Depends: apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git,
 Description: Advanced open-source platform for developing, testing and using exploit code. (insti686er)
 Filename: dists/bhutuu/main/binary-i686/metasploit.i686.deb
 Size: 2852
-MD5Sum: 9f972a822518c761e9f02a64fe506957
-SHA1: 6bbe90a8540d94c635e0affb7b43842b60ca0fc0
-SHA256: b1da89550937919d5b66362abb54323e567e6b6e3667ec2294abdb98ab6ee0cc
-SHA512: 8879cdb405e849b110c1219f246e8c8151904c308232692736e72ca43e1bf3d4b71403c9db21d811030bc2c294ab9bd8772f9bfea0f4d9187735096353ddd3d3
+MD5Sum: 5ed92ffa9b3c53392f59c22e9130a2e2
+SHA1: ece77ac80678fba1479c3024fab28bd671710f81
+SHA256: 0508e508809d503f1cef49a216e9cb422a7d590f87837951487e5cc5e44732bb
+SHA512: d5f13e740dbe70d6e8b574957d931e387bd931c9ed1fc8faaf9713ffa5054bc5fc85a2d4bfc7cce434376093d607d59a444d99169992604a09bb7536ea7737d0
 
 Package: ngrok
 Architecture: i686
@@ -98,10 +98,10 @@ Depends: proot, wget, unzip
 Description: A portforwarding client.
 Filename: dists/bhutuu/main/binary-i686/ngrok-i686.i686.deb
 Size: 1028
-MD5Sum: 67db69047ea512ff857ec1a482a7cc51
-SHA1: b6c42dd213a6d447dc7bc66813917a7990584079
-SHA256: 5100bef1430f48d48d9db4345da89d2c6717845c30880178d580fef0306349a8
-SHA512: 59faff15fc2990d51db0e476b229f4615cef95d889989a0a65fb65d56b312932a172ea3e9f29b7628092021f5e461d9805788bbdedf61e79362887cf1a091500
+MD5Sum: c8299487535ceb2a688211e76251e9ba
+SHA1: c6dc45c593b92b1d771b7d2ac79e0bc9c91a4b81
+SHA256: 10239b72da7bab4a05a36ff88b03db5ceec21bba607961e079984d20fe9ecc84
+SHA512: 456ee10e698edc160ad7e79a7895b06d612e2f34d73ab54ebb09a12a557e507a6f929b3394f8f4bd6942be17dea70d7168b41455d9d6a04b6f17041f2873ef8b
 
 Package: ruby2
 Architecture: i686
@@ -116,8 +116,8 @@ Replaces: ruby-dev
 Description: Dynamic programming language with a focus on simplicity and productivity
 Filename: dists/bhutuu/main/binary-i686/ruby2-i686.i686.deb
 Size: 4259992
-MD5Sum: d2c47a326c7d22e086aab4e2e3dda1b3
-SHA1: 3d6017737ef2e48a506106cea00d8488a249a3ad
-SHA256: d23d75c32c9937a7494a3390ffafe7ad984296759625a149c96a6a6e6ae90257
-SHA512: 5ababf969ca820d2cf2049c8a3b50934adb5cd79ef2e016e503892bdca32be90ef63fc967080d890fde2a988f35219bf0c3ba11b8652e4b4ba5e82e47f561fc3
+MD5Sum: d67ddef0bc04966b789c9d2810949d70
+SHA1: 0c6ccdada8cc9dbe698fc03ff722670500a58713
+SHA256: 3087256c4f57820c1faf2c70b916e3c705c0c39ae2d30302603a8fe38ce155d5
+SHA512: 41fc1f634e19f8bad6066d8d91e385fae0d04ee4dbf8b7427ce68e197d44792263c0cb57a0bb84b4108185db63418feb560ee727beb9af6413e5ad8d9fa7a363
 
