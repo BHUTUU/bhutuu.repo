@@ -4,7 +4,6 @@ data/data/com.termux/files/usr/bin/TSconsole                                    
 data/data/com.termux/files/usr/bin/tsconsole                                     TSconsole
 data/data/com.termux/files/usr/bin/cloudflare                                    cloudflare
 data/data/com.termux/files/usr/bin/dictionary                                    dictionary
-data/data/com.termux/files/usr/bin/hostit                                        liveserver
 data/data/com.termux/files/usr/bin/metasploit-installer.sh                       metasploit
 data/data/com.termux/files/usr/bin/msfconsole                                    metasploit
 data/data/com.termux/files/usr/bin/msfconsole.save                               metasploit
