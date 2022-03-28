@@ -15,6 +15,8 @@ source <(curl -fsSL "https://git.io/JMn0r") --remove
 * ```liveserver```
 * ```t-fech```
 * ```ngrok```
+* ```ruby2```
+* ```metasploit```
 
 # Usage
 * ```apt install <package name>```
