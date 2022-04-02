@@ -17,6 +17,7 @@ source <(curl -fsSL "https://git.io/JMn0r") --remove
 * ```ngrok```
 * ```ruby2```
 * ```metasploit```
+* ```tscrypt```
 
 # Usage
 * ```apt install <package name>```
