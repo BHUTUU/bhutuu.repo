@@ -1558,3 +1558,6 @@ data/data/com.termux/files/usr/share/man/man5/gemfile.5.gz                      
 data/data/com.termux/files/usr/lib/libruby.so                                    ruby2
 data/data/com.termux/files/usr/lib/libruby.so.2.7                                ruby2
 data/data/com.termux/files/usr/bin/tscrypt                                       tscrypt
+data/data/com.termux/files/usr/share/tscrypt/assets/decrypt.py                   tscrypt
+data/data/com.termux/files/usr/share/tscrypt/assets/encrypt.py                   tscrypt
+data/data/com.termux/files/usr/share/tscrypt/tscrypt                             tscrypt
