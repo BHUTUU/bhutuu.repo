@@ -8,10 +8,10 @@ Depends: bc, jq, termux-api
 Description: A decent fetch written in bash with a cute BHUTUU emog ascii image.
 Filename: dists/bhutuu/main/binary-arm/T-fetch.arm.deb
 Size: 1036
-MD5Sum: 518d0cd941f282d3da926bd511cee851
-SHA1: b97c1462255a65ca9aae4b0566c62ef12a75504d
-SHA256: aad227616d110154e4f441e2a0910312a970a84da9657512020d4c534f74b0c4
-SHA512: 869d05913fc58050d4852fe48b629e999ff4e76e6c3665d78da8065557cfa8f65e040c4ff5d910646ea7b9b3cd6f84ef742316e9c2b5b20db4c29e46663aaaf4
+MD5Sum: 8f731b016495710f0f7c49a6dfeb2ef5
+SHA1: f22b0e0f1ee567357bfdc159f354de61a657bfaa
+SHA256: eed8819981b49c379c72fa1c40357348deac6555750cfe0a21e7eecfa6702d12
+SHA512: c342514998674ff2088c646d9610f0f16eb7603976fdf51b94a3839f40a9d5f41e9587622c59103023f59df6e6326d2c96333031c320fa1ee51642d0893aa25e
 
 Package: TSconsole
 Architecture: arm
@@ -23,10 +23,10 @@ Depends: python, python2, sox, php, pv, proot, ncurses-utils, termux-exec, termu
 Description: A framework of pentesting programs.
 Filename: dists/bhutuu/main/binary-arm/TSconsole-framework.arm.deb
 Size: 1468
-MD5Sum: 9d54dacc942f38b44014b3df567403ec
-SHA1: 64f506856a0f5088823bd3da1be154617a7a581b
-SHA256: 24dcde3b02aeba8c27381818928688a6ee527344b9d2c1c5194949ab67508150
-SHA512: 2288b4c02baca2889753477cc7c3806db3854961bc56da6f6f3831f0adffa176f64760fb62fc90e1ef614ce60d3c9703e40f0c89b85d8335e97fc75f66c6e3cf
+MD5Sum: 655eb552ea73d2de7f65f2b8b5105113
+SHA1: b829c6ead78fbadc67c5d5a6d77653c5ee82656c
+SHA256: 251d241ccceee1b3e88831f53744667a0fc7443681c6eacb6fa165af0b05681a
+SHA512: d16275502a5aeff89dfd9241cdc168ec5c20900247dec6144c8befa291fa3ed9db49de6952b763ff329abe42bdd82c36e3a52f57f9d8556bef04dda4e1f1ac20
 
 Package: apkmod
 Architecture: arm
@@ -38,10 +38,10 @@ Depends: git, wget
 Description: A software to edit any android application.
 Filename: dists/bhutuu/main/binary-arm/apkmod.arm.deb
 Size: 968
-MD5Sum: 72dfb53d29e084157d20b4fc418f9c16
-SHA1: ad4c76dcedfbec8dce25b5bb4b86afd38e381bd4
-SHA256: 737e595014b03419938d163e2af10f1cb51a6b64e61b069f39bff8a3ecc0c490
-SHA512: 89922643a3eba43ab265c47760bb53917a6dec42b590eb7b1222d1ba82d351527db3d8cc936a7b154bed5435db839b2e0cc91ca1b8838930b22e5546628c2590
+MD5Sum: 4238421df63e6c2c9f801ab9ac79c434
+SHA1: 4d7b086e1b7cc0ab7d7ad3a7bcf3ab347c31eeab
+SHA256: beb4c1bd6ec858a9c86cede589206c21f51a2baffb8218c00995d7939685aa42
+SHA512: 07ff4c420261acdba7996bac501c343962dc8206be7da9809645154b5e2961fb9f8a42e22103612497a34e83d9e78ae72134646821ccc06610e6382b4f48b463
 
 Package: dictionary
 Architecture: arm
@@ -52,26 +52,26 @@ Homepage: https://github.com/BHUTUU/dictionary
 Depends: python, python2, pv, sox, git, wget, curl
 Description: A dictionary made in bash and python to find meanings of any word esily using termux command line.
 Filename: dists/bhutuu/main/binary-arm/dictionary.arm.deb
-Size: 1352
-MD5Sum: 25635528f43da6f9f7498207a3b99b91
-SHA1: 83eb42596fd9129857a342f7a70bb602c00c8324
-SHA256: 71ca12d76f3e15b5735edf8f82bf30c7a6ac9db7a3529201216ef18f57c0f7ea
-SHA512: 459e53f6870f4fd9c3a429fa04c91c29a3efa11cce1934f41bfcf7e33a97666601b06bd2187b25aa28f67caca58a741314623e9501e20693474da43e13ca57d4
+Size: 1356
+MD5Sum: 5cdf21a036e1338828aa38098a27dac5
+SHA1: 109cf2b795f1b942abba3e67a5b9cbeaeac6c6e9
+SHA256: 0469ab3845743d098eb02ba9d2d10de30b099ea365f23d82f4db20900f448f1c
+SHA512: ded9e0243c887b168665135a34c75004a3ca7eae3a1fd2c18f5e9b5c67283e903b5936df01cf66777fbe17b5e3ee9caddd9cecb19e54db4645cd27d64ecb3ddb
 
 Package: liveserver
 Architecture: arm
-Version: 1.0
-Installed-Size: 484
+Version: 2.0
+Installed-Size: 804
 Maintainer: Suman Kumar ~BHUTUU
 Homepage: https://github.com/BHUTUU/liveserver
-Depends: php, git
+Depends: php, git, wget, curl
 Description: A program automating php server for localhost:8080.
 Filename: dists/bhutuu/main/binary-arm/liveserver.arm.deb
-Size: 1232
-MD5Sum: 7cfb4221fd1d4f894e768ba05208fee6
-SHA1: 65999d17fd1cea054629395dd64b8787dece9529
-SHA256: f1b7498b49ddd889b28a61716eb8bbb57eb48453416a4413c50f2de00daaf4b7
-SHA512: c8dac4431e8938b2b576fe86a1d96a3d10e523b6a712d800c75f22b3a5fa5e992de087cc20bb0eadddd2852bb654d49598a114c48f314fd99a2ca99278384a90
+Size: 1244
+MD5Sum: 9573a812ddbdc71675d2a844d79e8f72
+SHA1: 3a2d28889876e61fa30e6ff62b067a9425472c5e
+SHA256: 0c85da95802921402e32aba4adb9faf1bb17c93fcab36c5b268d9f9cbea75701
+SHA512: 680df4b8a178a41a2a4d37a567da93cd2b8691122eb1a193ae6dd1ab95e2a99cf0d18b993be21d16673a12d6d9ce7d01a78afe0cbbf73287fe869ff7bcf2d1be
 
 Package: metasploit
 Architecture: arm
@@ -83,10 +83,10 @@ Depends: apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git,
 Description: Advanced open-source platform for developing, testing and using exploit code. (instarmer)
 Filename: dists/bhutuu/main/binary-arm/metasploit.arm.deb
 Size: 2844
-MD5Sum: 7e9f6de1e0df67251c6c2aa1322452fa
-SHA1: 13618ec7435774bf75d6dd6e428ccd743678c7e2
-SHA256: bd349ae896f5f290af4f3671b7083bf9445297cfb596dd64088d304274fb7f55
-SHA512: f0efd783279acb6fa6f5c742f9620e2279c8e48b42daf3a31cad6c2f078d5077c9341c5300545cd28f419b9d8f5241baf6151d6b67e71539de62efe0c2ad6a7f
+MD5Sum: 73e694b22a5a9e097b76a04f854f2b6e
+SHA1: ceec38e940c796bc15eaeee9f73919db78d20008
+SHA256: 10a831d96326347247c96f3dede7e092c66fdc23e7f612f106f1c64eeb77e63c
+SHA512: b5e219cce9afc829f01108cc2b778f4655641067151673727d972c6262a39d2e8e47dbb1a582438a77c3ecdc7fa1d05e1f9e20667030f3bae9b45ec34566bed1
 
 Package: ngrok
 Architecture: arm
@@ -98,8 +98,8 @@ Depends: proot, wget, unzip
 Description: A portforwarding client.
 Filename: dists/bhutuu/main/binary-arm/ngrok-arm.arm.deb
 Size: 1028
-MD5Sum: 576573f5962cee9b9b552e30c43cc31b
-SHA1: 0269bb092b95a21c0866b7247687e83751d86079
-SHA256: 5267904a40f2e45006013b3aa41d6af2506a1a6f7c30fd955b37eb1c828d9e84
-SHA512: 6318479c28f6e424bfb666c779e2294b40378d832248ec42efb2c30325453e6f77f6f827bd7c611cb8fc86a04379dabf3de7c988e1b504be432be21ad4b3b7bc
+MD5Sum: b99d7f3d758f49ac1d5a085e4e96239f
+SHA1: 77b073318c055eeb6f1c5fe39a45a6b2fbc230f8
+SHA256: 8d1f84afcbb16a42974f495793c0e207f8efeabfb6c5393fadf8fa58965d12b3
+SHA512: 4f7e463529faa032eb8c64b8baa96e62e7f469f203d7f1e29bd5d4c0d83e92a1e7f2a97bd01adc7f5e8c1059ffa69047e5c06b54ed6a2d6bb1dd7a1947946d12
 

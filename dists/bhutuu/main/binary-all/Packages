@@ -8,10 +8,10 @@ Depends: bc, jq, termux-api
 Description: A decent fetch written in bash with a cute BHUTUU emog ascii image.
 Filename: dists/bhutuu/main/binary-all/T-fetch.all.deb
 Size: 1032
-MD5Sum: ea402f1cb371166382940b6f153a84d6
-SHA1: 4b0681261c46b5ae5e07ad5df2fcbbb5b423471c
-SHA256: 6d305b395422e153a92df77310341fcdea9ba4d6b6a88f5b99bbc467ce87d46d
-SHA512: 3f339e8702275fb0a69b84c4b7aa11bee32529d992370cfcdb1b4b49582baceb969f452df4d1f424486fd4fa8c733299b20ec6db3c67be09322e63208db63c4b
+MD5Sum: e8eb12e4f69ecfd4aca7949b197ca642
+SHA1: 9dca3794bc913f0d4017aefa509821ae5bf139e3
+SHA256: b8b8344707eeb12ca98cc50a76b284f3db794b5f604fb68ff1fa0aa7401255c7
+SHA512: fa9fdbe576513a1ba2e65086f99fbcd7a8618f0ca257cd928353d494fc69a72ec3f4459fc6d5ffa0e9bc08edd07d3746086289d3477ada614e23926ef715324a
 
 Package: TSconsole
 Architecture: all
@@ -22,11 +22,11 @@ Homepage: https://github.com/BHUTUU/TSconsole-framework
 Depends: python, python2, sox, php, pv, proot, ncurses-utils, termux-exec, termux-tools
 Description: A framework of pentesting programs.
 Filename: dists/bhutuu/main/binary-all/TSconsole-framework.all.deb
-Size: 1464
-MD5Sum: a081d70966dd5ef5217df2e2ac014b06
-SHA1: 5642a56e1d37be2009c98ebd34e564e2413d7a02
-SHA256: 8801a0a615a543500ef7a221777a475900e4b53454b99bc1b99b5a41ed117274
-SHA512: 9a5651b15fea9b9aba90e772680623803f2e30d4f7b81c61a49ba2c802f5fba91b577270bf90d41e02ac807409df9c38a6409aa90e1733e5f9f7f09d57087122
+Size: 1468
+MD5Sum: c941e311ff99334782902b334068a6a7
+SHA1: ea379649bc2e33e03fe0b8a8790da2c6940eb8f1
+SHA256: 7c9f2e5b39770f9c3fdc4b1531ab55d43fd787827461d78b8c1a25777a53cc48
+SHA512: f2decd379006d236a8458ed730bb2217ef94987639e1b3fdde84b2a0bd2e7f8afe9e8c412acdc4713d8e03b74bd08454a2cc48e5ddbfba094335c7568eafd1f1
 
 Package: apkmod
 Architecture: all
@@ -38,10 +38,10 @@ Depends: git, wget
 Description: A software to edit any android application.
 Filename: dists/bhutuu/main/binary-all/apkmod.all.deb
 Size: 968
-MD5Sum: 226005fe656d94a50662c0b050bb9f83
-SHA1: 9d2c8b3a29d7f1554a2d3af174e6f2739320b4da
-SHA256: ec8ec06576e8a2b244f70220b6831a0a7eac08c447e08cc84673cc6178656ed2
-SHA512: 278418c1765defc33d90812493e264ba9b5fd61095f4fdbb9919fa95633f85f33c3c40804cff3c4103f0615ecd424981c74de99ce472862f618bf62e347d6773
+MD5Sum: 9b4d2cde650fa24c5be9348f35737395
+SHA1: 562ff26e2c656418001f24ec649ec6b2015402d9
+SHA256: 84eb7cc9d74f007dabcac49955f75d5539c783145d9e67ae89aed4d73e2f165a
+SHA512: 4cb15957568489bea3c15f2c077805f51c32c15a65557895062219446eeb49b6e907fac4bef114cb6ea2779cb2cc6823e5de93367eb08d897e27cac0591cb6f4
 
 Package: dictionary
 Architecture: all
@@ -53,25 +53,25 @@ Depends: python, python2, pv, sox, git, wget, curl
 Description: A dictionary made in bash and python to find meanings of any word esily using termux command line.
 Filename: dists/bhutuu/main/binary-all/dictionary.all.deb
 Size: 1356
-MD5Sum: b24bd53ffa8947e47f49d4a31eafa7ee
-SHA1: 04b4cfb285d6a6b3951be8df581749d998315d2f
-SHA256: 67a73454b612a8bf8e4d7f85d53346fabda9bf042f46d6d443f857f2f7b5e824
-SHA512: 8625e4885d2579129397ea2ec08541f33711957b3c00ccc30208cb40140c4e96762e12e4d5158661fef5b68b41dffec8b5bb6bea0d8b9d0cbaf07b95d74e91f1
+MD5Sum: bdffb0ffdd5c08f6e43c63d640da4565
+SHA1: f4ff58cc10ad09a6b36b3451993fbb54399d62f7
+SHA256: 2df4d6196da25c777fd9780a0ac460738972d7007a3aaf37fe7692a6a2f4a052
+SHA512: 4b10f71cd84bc9fcc5dbeb7abacbceb0e356a0b89af384d585fead2e867507348b6ca7f480267bd726b36959d9537557b2b00eddccac1a18831cfda67172ed69
 
 Package: liveserver
 Architecture: all
-Version: 1.0
-Installed-Size: 484
+Version: 2.0
+Installed-Size: 804
 Maintainer: Suman Kumar ~BHUTUU
 Homepage: https://github.com/BHUTUU/liveserver
-Depends: php, git
+Depends: php, git, wget, curl
 Description: A program automating php server for localhost:8080.
 Filename: dists/bhutuu/main/binary-all/liveserver.all.deb
-Size: 1232
-MD5Sum: fc184908e5e1a803597c92c43787cf4f
-SHA1: fc2296586b7ba7b66956feb0d96185c81b4613f6
-SHA256: 1f4bdd6b34309822391140da8171572a5c3d7f145bd795e7d9a1665dd46c05fc
-SHA512: 8db47f4e4a890da3840909578adcf9266708e777e413241cfeaa1e805c78281227236cb1ddcc1807f7ffecbd3004b90a0c71cd0906f648f91fda286748868328
+Size: 1248
+MD5Sum: 4db2b1156631a2a8de9e28171bb4bbd4
+SHA1: 00757f25599a43bd10d2e51fd892342ce56c59b9
+SHA256: 51813ca2bc4126c752f9713f502a20a4e418e153b0793399e92de4615fa0dd8c
+SHA512: 4f1e460a1468de5c74a7274d723a7cf8318c08f3f99cf2e11afab4859c1834553c579c0c7370dbdd45ef9b37e90c7dac2ca757ad8fde56d159eb6bafa9a419be
 
 Package: metasploit
 Architecture: all
@@ -83,8 +83,8 @@ Depends: apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git,
 Description: Advanced open-source platform for developing, testing and using exploit code. (installer)
 Filename: dists/bhutuu/main/binary-all/metasploit.all.deb
 Size: 2844
-MD5Sum: e4def523f37c3a930305986be9ca7c69
-SHA1: 98e48baaa92c19c232e8f5798aad5859c6e8e692
-SHA256: 7fa3ac368249218f7deecdd88f48e50e153b6372c34d3c4312ec857e33d9880a
-SHA512: e31f15cae8078f9cab9f80b27ee84bfe19c9c0b39671a706f092048c0b19e34698c27f03a8fa384d142c8ebf14a66aafaff879b7e10d04178fb222e3730dfc5c
+MD5Sum: 346fb92028afe4721597ae582c51a19b
+SHA1: 03429b47b0fe794d8631873a6adc5563c6f08827
+SHA256: 3e5bb90cc16925cadc32deb44c426be5912ef6b1016a927e692952d751b180d3
+SHA512: e958a9c50fac2a529fc5f2bec18e89a9d3f57b9f47c1610447619da660ad9091dcab3f456c56f4fef73ee13b2ca13d92b5ff39ddd1f4893185e238a64dc15489
 
