@@ -8,10 +8,10 @@ Depends: bc, jq, termux-api
 Description: A decent fetch written in bash with a cute BHUTUU emog ascii image.
 Filename: dists/bhutuu/main/binary-aarch64/T-fetch.aarch64.deb
 Size: 1040
-MD5Sum: 54eb65433f3909274396d5713b94f9a0
-SHA1: 67c59838dbbc12061f329824c6155f53ded428c6
-SHA256: 96b43c6c456714698bbb585d0d73c672a89642748404788305f5bfb171af4819
-SHA512: f99ac1e5410f1c15632516032bd8f840d3b3f61b887e10bf9370b11d60fec2ff874a0375a6945132b267beb5129d1483e6fc3bb089d8487765764ca028de7103
+MD5Sum: 7d906f29b6a8965edba547c5e27ac446
+SHA1: ea1a5e8727b64640592526cdf3356b316b1ac9c3
+SHA256: 32702660afef992c92a01e3ed2c46bc3c5a552e3dd49f95ca024d5f37ff4811e
+SHA512: a03d7272c83604ea2c99aafb0921cc1ac2b896e98defe4d7bdbc395da48170ec0e6ce7db09daf60d84823ae06880abfdb856cdba6db78745c338dee0667fa6f5
 
 Package: TSconsole
 Architecture: aarch64
@@ -23,10 +23,10 @@ Depends: python, python2, sox, php, pv, proot, ncurses-utils, termux-exec, termu
 Description: A framework of pentesting programs.
 Filename: dists/bhutuu/main/binary-aarch64/TSconsole-framework.aarch64.deb
 Size: 1472
-MD5Sum: 558d8c9cff9353eebe324abbdf10740d
-SHA1: 005b3e7e0c22f9ccc036706d17b5bc3932534696
-SHA256: f08276d91db6085d195b20c20e795ed9de705f4113a1b7453083ea19f0965211
-SHA512: 4dd62f267998b54305beb5b36d3d50bc657007fd28873569dd228ab31f5d6ab37b9732c20af429a9dc50b6f8d2a52f5c5213d523113ceed428b6731f1cb87577
+MD5Sum: 210f16c827bd2fe9fba03f0414fdda08
+SHA1: 275d24af1bc9d219ba3df396e5ecf4c4a08bc461
+SHA256: 492175a786e7c5c371734c268e4275db7f6b744c9f845a89a5ec589c0446422c
+SHA512: d10d9f677cca231c005aaa1324de262520a0c3232e25f4c7bc1b07c590f633c3995a2c7ec9adf29adbf660c90a1ab3c5010b5f449891cdb30d288d9693184574
 
 Package: apkmod
 Architecture: aarch64
@@ -37,11 +37,26 @@ Homepage: https://github.com/hax4us/apkmod
 Depends: git, wget
 Description: A software to edit any android application.
 Filename: dists/bhutuu/main/binary-aarch64/apkmod.aarch64.deb
-Size: 972
-MD5Sum: 00561ca4b72f8d7acb58550f457757f4
-SHA1: 8bb9a26fc6b6f95e66e20524d38109df56c2145b
-SHA256: c4738442a3155d1acaefe0d74e12fc02417dc1a282a85fa4f04d1e23b00f04fb
-SHA512: 59cc10e1d275e2ac6488b10730776cbac1ec8a63592189572e774c7745aa38ddeb4c04378b8fa49e38fa26a53e8ac6caf21aafb37f7406bd05a2ac751a4c92bb
+Size: 968
+MD5Sum: 0e9dd4ede18d25bbb7340fe8fdd4bc3e
+SHA1: 2fc1fb9c04317b034e633eb0aca1e89e5ac2a2c0
+SHA256: 6984c519fafa6a37a56c3199b085cdeeb22de67b58b6952a2c9d04bf02cf3919
+SHA512: 8ccf9dbef5f972a99619a265a64e075330dda1aff63396161064d20bce091de233a13198558846155e782fcf19489608b02dc72daf307e138aca093e8d951708
+
+Package: cloudflare
+Architecture: aarch64
+Version: 2.0
+Installed-Size: 388
+Maintainer: Suman Kumar ~BHUTUU
+Homepage: https://github.com/BHUTUU/cloudflare-ui
+Depends: git, wget, curl, jq
+Description: User interface for cloudflared, an http port forwarding client.
+Filename: dists/bhutuu/main/binary-aarch64/cloudflare.aarch64.deb
+Size: 1272
+MD5Sum: f0ff0c662ec9cdfa315f49ebcd984c16
+SHA1: c743618c13b885edaf9a4e18f914e41011d95a1b
+SHA256: 82fa0170a8c4d68c9f932c3bd258d98257e47e3df9a7f10ff08e1af351779dd6
+SHA512: 3f0eb21b96e3430d428dde07ca03e63bb60f5c6281b13ba8cd072c1b398e186860a9f32102a850e1426a8f37e7f7539706decc18d26d370787eb9cccdb71cc34
 
 Package: dictionary
 Architecture: aarch64
@@ -53,10 +68,10 @@ Depends: python, python2, pv, sox, git, wget, curl
 Description: A dictionary made in bash and python to find meanings of any word esily using termux command line.
 Filename: dists/bhutuu/main/binary-aarch64/dictionary.aarch64.deb
 Size: 1356
-MD5Sum: ff9929c361e9cbcafee4878757a3681f
-SHA1: 6dca756b4b7bb1aea27e4fb51d69a705ca122eee
-SHA256: f008ec53caa4e1dab41e3bc15a9d6e59863a610f5a9038d6fc42257541fb15f4
-SHA512: 9859ec8b69320bee7336fb93e24b8c4351dfdabc2edc7714e37c1691b2728638fe63f1aef1bd5312ef0af23ce98d5fe2fdc6bcc20472dc1ea85293ac0bfe6c42
+MD5Sum: 96076c3873ff7cd3f3b57a55ae4d23dd
+SHA1: 18f66639e54de5ef6ee36e4fff8dc5e9ac510e76
+SHA256: 8a7afb0961f620ae875b732bc902dca637c4386bc0aa13c348211515ad22d8f4
+SHA512: bba6893eccdc0896cf0c784b684926eb96d3880c72dac685e57a1b43e61de189bbcdc69f111a527712b1459970dbd8aca6d875fbbbcc95b436eb2a6ab2386640
 
 Package: lemon
 Architecture: aarch64
@@ -68,10 +83,10 @@ Depends: nodejs, apkmod
 Description: Remote Android Managment Suite
 Filename: dists/bhutuu/main/binary-aarch64/lemon.aarch64.deb
 Size: 18813400
-MD5Sum: 20bf380886ee06510b6c2511f8059dfe
-SHA1: 7f54a37937ad652ae7db67ba89d4b0a6af0a812e
-SHA256: e690d8678d6fe8d755e4f7527fd9a235a2c1b933594fb2f52f918858c0e32df2
-SHA512: eff7f32d607bf57f290afe2dc19d042c8c9535c3ee31fc2005a57ed039d6176ff680a90e05c69cb64e26d731be37a19f69c635446f0739b6020b91bfb94cb465
+MD5Sum: ab84e31c62bcd124513ff7917b76aa31
+SHA1: cecf10c5c8fe1232f6f1e7e6d45a8e68b2425427
+SHA256: e6280cb631d145b8243fb2bdda334204194b975558e7f529a7e5ce9476873d3a
+SHA512: 7346b1229121004f950c66acc8e1088a0a482f68df9128cf9748346183c31b27eb23937153c9dd696f8098bb53b1c62c54c89bf17814a6c583bb34ac3ef17095
 
 Package: liveserver
 Architecture: aarch64
@@ -83,10 +98,10 @@ Depends: php, git, wget, curl
 Description: A program automating php server for localhost:8080.
 Filename: dists/bhutuu/main/binary-aarch64/liveserver.aarch64.deb
 Size: 1248
-MD5Sum: d37ccad06e2dfc900d4f20fcc690a613
-SHA1: 62ba972d1f6f661695ea798a40855a2675b73d2e
-SHA256: 9ab31a9cb7ddd1dd1cd023abfaaadebc3f7704138a5be4574c4e1aad1dce59cb
-SHA512: 63aeaf0aa5441205c48100fc480e2c086cb862ac0265fc1caad358726f539861d4738b133f10029f0f5d826466245b71326c3907071d26713a2f868faf6e49a0
+MD5Sum: d47bd29514249b1a01f9f582baa99ab1
+SHA1: 0e228f8bc135b53a7ae3b373796dc8a27d3f6419
+SHA256: 0fc86fc0e99097d56f0d324c34f4258570deac6361520a81b8937571342b22c3
+SHA512: 289a3ac29873aab182255d021af1a336383ad9936bd21f24b89662e31d5ded327c0c1731c23aa8bf8320c523e1e8f888bdf6e91c8515b44ae5faecfbd248aca6
 
 Package: metasploit
 Architecture: aarch64
@@ -98,10 +113,10 @@ Depends: apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git,
 Description: Advanced open-source platform for developing, testing and using exploit code. (instaarch64er)
 Filename: dists/bhutuu/main/binary-aarch64/metasploit.aarch64.deb
 Size: 2848
-MD5Sum: aba12da7d2cdb6f4c9ec537135496ca0
-SHA1: 8d79ef0cd939dc2e5ca0feee163f747f9384da28
-SHA256: 78e91805247a3501a32dfb72ead43dfc76d1bcf11cbfb12ed23d8865d8d13b26
-SHA512: 52528b93b6fe4ea0aa39b68751ba799e19f20f94f7961f06a867f7858ee51e01ec1833d956ecec4b407d16853af02d19571fb76ce32ae153fbafb50d67b135b9
+MD5Sum: 5acdac0eedb01f97bd5bb3b874c95af5
+SHA1: 4ac18107de53399cd421c288b0f630f8cae5bf06
+SHA256: 2d90a44ca645ec20f90bddf1675d54e4761dce6f0bb4b13c48bff8834bacfc83
+SHA512: dfc221372ed1d83873455a842d137f7054aac885a1e2e5142fd677254e86551da662139438c52e488f036ad49ab0e7a3be4a8221b59a2275ae9896159fc3b452
 
 Package: ngrok
 Architecture: aarch64
@@ -113,10 +128,10 @@ Depends: proot, wget, unzip
 Description: A portforwarding client.
 Filename: dists/bhutuu/main/binary-aarch64/ngrok-aarch64.aarch64.deb
 Size: 1040
-MD5Sum: d9fc615e5f525c05e4ade1c6177568a0
-SHA1: 5979345b08f0bdef6c6462d47e6f8abe283051de
-SHA256: 326acd09a7f2dbb2f4aa4aa497735bedb85ca22877be90fd354893ac4f3983aa
-SHA512: 115b972e41c27d42f2cfaf4d030d2e154f2fee393b16346c9d46730220170bc72f0cfc13b9ac1ea3e65f8f903ec7469740d385583c6ad89a3fc68efb80ccc481
+MD5Sum: e8598173e4b480bcb9ebec306b98347b
+SHA1: 98c4d8254930e7678c3a1263148c4ce6d5cf6c3e
+SHA256: 28fe49a7d74a3f233379c081b65b0221c55e5615ef47525cec5e8318997ff0d1
+SHA512: c4e747fa28b3c6564239eef1aaaeca54975044f5fac4b4a27963e02e9550b19a33060a53d2b8cd2dbae22511fa8caaa7b5c0761bb1f30c63767eea92f4baefc7
 
 Package: ruby2
 Architecture: aarch64
@@ -131,10 +146,10 @@ Replaces: ruby-dev
 Description: Dynamic programming language with a focus on simplicity and productivity
 Filename: dists/bhutuu/main/binary-aarch64/ruby2-aarch64.aarch64.deb
 Size: 3842468
-MD5Sum: 067ee5a534496bff43b2c1e49f85a15a
-SHA1: e9ac4ad6663b0e1d84085ac080f229749a0d9ca1
-SHA256: 18538460095b7fce1d097383d48ebaa278c5a00412b7e4e632cba5c4fcabbb00
-SHA512: 17ad00847533e5f3d4d900e9f8ed1691de207c74645a6649fbc5d6eef01be35107dd32ca6a3e7c19a33830faa5b3b767b789d9e590265766f19a37ff25994465
+MD5Sum: 4247836afb955c2c632d794f5a1de46e
+SHA1: a48779eb677928b722d20db4cddf5dae1819dd23
+SHA256: ccb39869975472c7f269afafc0041e280e573efea5664037934b3d072bceb87b
+SHA512: 56e9fda9c387cc1837865d3382016189508883c978a37d76d31ef3d985f3ffdfb34802ff6c392fd0ae88d3ae4f25047b7271d05490d3b2a8424c290a44e98ca9
 
 Package: tscrypt
 Architecture: aarch64
@@ -146,8 +161,8 @@ Depends: python
 Description: A program to encrypt your script which would also run after encryption but no one can see the real code instead of 0 and 1.
 Filename: dists/bhutuu/main/binary-aarch64/tscrypt.aarch64.deb
 Size: 8244
-MD5Sum: b1c593fc865de695645c928eb0a4516f
-SHA1: cc9c2d3e56f3f4e7bd169911c279f33f6b9c099b
-SHA256: 667f6fe6b8ee0295dda90c69f73d5c65243576ae5cfa618a948033f72c6f1f29
-SHA512: 7e32c6fb2af4fb2fe9f10ec9b1968616a1baa9487960aeef1a79b9f28b3826fb65155e97fe76fb9fab10d9445c18558db518e68fefe65a37bbbeabcd538328bd
+MD5Sum: f8f0d4a9ae3b0bc1e45bb707349115d2
+SHA1: 5a10c46027f413395f786bd34db63c075cf17990
+SHA256: 7ae56429f2701e3761b71bb690ff499069bf01b08024a4b3042b522f4f2dbe53
+SHA512: f34c1404e4c62ca7a48bda61352db61f48e0736af98b93e9a863ceb2721ca1100baf2df0e315b33de642ef61fb3bb648dd4e129a80373fde38db91bf19096ffe
 
