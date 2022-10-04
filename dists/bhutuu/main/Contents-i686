@@ -7,6 +7,7 @@ data/data/com.termux/files/usr/bin/dictionary                                   
 data/data/com.termux/files/usr/bin/metasploit-installer.sh                       metasploit
 data/data/com.termux/files/usr/bin/msfconsole                                    metasploit
 data/data/com.termux/files/usr/bin/msfconsole.save                               metasploit
+data/data/com.termux/files/usr/bin/update_rubygems                               metasploit
 data/data/com.termux/files/usr/bin/msfd                                          metasploit
 data/data/com.termux/files/usr/bin/msfrpc                                        metasploit
 data/data/com.termux/files/usr/bin/msfrpcd                                       metasploit
