@@ -8,10 +8,10 @@ Depends: bc, jq, termux-api
 Description: A decent fetch written in bash with a cute BHUTUU emog ascii image.
 Filename: dists/bhutuu/main/binary-all/T-fetch.all.deb
 Size: 1032
-MD5Sum: 079ee03bc0b2265af84a04d1d75e179d
-SHA1: 12bd5195d983331cfe370295425549ab2ecba4df
-SHA256: 8078d4eee30a36288ea37c0fd6d48a8cd71f2787f3393969d72711cd3a9c11a1
-SHA512: 0618ff1f51f5880160a43dea5dc67de6d2a1a7f30f5252326e4859067ba4e0266c80a97a8bb41525d2f80d45dce5cc873f5064f9f900e971206553e3520005ba
+MD5Sum: fad7db064beda140b13c0c1a93de43b6
+SHA1: 8c0972407f4a7730745ed2a245dfb4dfc06f64ae
+SHA256: bf12540b187356cec2eb7a89e148f3d78e4ca7dbaee49e05d6aa1bdbea14d9ff
+SHA512: 6c940bb60da56925551dd1620070c01f0bbce8f42c99f82495d5670ccf69fd1b9014bc871de784a4421446c0c1a670ce1cdbfdfade2967f477e0b60aa02ff122
 
 Package: TSconsole
 Architecture: all
@@ -23,10 +23,10 @@ Depends: python, python2, sox, php, pv, proot, ncurses-utils, termux-exec, termu
 Description: A framework of pentesting programs.
 Filename: dists/bhutuu/main/binary-all/TSconsole-framework.all.deb
 Size: 1468
-MD5Sum: 1c4bbea254bbe9302e0d4ee47ff94ad7
-SHA1: 75f159cb273377a53ff4046aacaf253efb8ef386
-SHA256: 91a867e6bdf504b0de23fb1f2264801da5e9593d4f61534201d98d9cd380dcb3
-SHA512: 5752ec88bbe64bf5b9693b6c30320a1e4cc188703211d55ea6d0b418f4dad5e5f0c8f98e95d20411631434f1b24fbcd3fbd7783017089d8d132dd178c92bdfe2
+MD5Sum: 0f148c1089434e1b14fb0ea4df5802e7
+SHA1: 59fdd0d0b57e2da8c41873adbc9b83945c1e252e
+SHA256: d0c819e8d0ea8dde1eeb0e6752ba6c6438782d47601059b052815383b158edce
+SHA512: eaa584c6ed0233cbb448786d4d16bca0e0090c33adce4be37a11558809855aaafd4528c1a7f018c72dc133cc869ef6b3c4c6658f4e66a85d565bc12450f01fd6
 
 Package: apkmod
 Architecture: all
@@ -34,14 +34,14 @@ Version: 4.1
 Installed-Size: 104857600
 Maintainer: Lokesh @Hax4us
 Homepage: https://github.com/hax4us/apkmod
-Depends: git, wget
+Depends: git, proot, wget
 Description: A software to edit any android application.
 Filename: dists/bhutuu/main/binary-all/apkmod.all.deb
-Size: 964
-MD5Sum: 09fe83edc6ec4ed8f443c88047a894f3
-SHA1: a3349f7c8ffecd99b23929032bc3372c3ca6713b
-SHA256: ae3f0d67ed0990b1f917dcb93e28ddc4641de1f34a7332725305cda92207c74f
-SHA512: 8da9334de1ccc60938114a05e9f94fc87881511b748e6c122125bc37c98300dc8dd3d1165f1f63e5e59f295dc30514da8991ad3fc7a1a4d0068930298e9bf375
+Size: 976
+MD5Sum: c8b7538650e8c965842e7f1110412e9f
+SHA1: e033ff47f41360d8abdd7de98e82a606ac565c03
+SHA256: 9136950e50376942407d3867cd2fe61c3b41af56e2802a5adb685a3b1d7dc1dc
+SHA512: 58c93751c9ab49c62a41cfbdf3dfedc1924550450f19b013d0ad91046730fdf3ca756f47ff72f79a08f57fe770721d65b82eff5b72cf8f0ec325676b56f903e8
 
 Package: cloudflare
 Architecture: all
@@ -52,11 +52,11 @@ Homepage: https://github.com/BHUTUU/cloudflare-ui
 Depends: git, wget, curl, jq
 Description: User interface for cloudflared, an http port forwarding client.
 Filename: dists/bhutuu/main/binary-all/cloudflare.all.deb
-Size: 1264
-MD5Sum: 7f5bd8a6720179d530afa101d45f8432
-SHA1: fb4b55c501a0e1b27029bb09db734b024955c6d7
-SHA256: 326c34c5b8eeedab57e74f6cfe21ba12de7cbc4595640573b08c69206c4121df
-SHA512: cd6648ad43f7675b73b2acdbc2da4b3bf4cdf034aac51e93b3125c3bab51ab5f1d0bd5f2ada72cdcd8a9bad5c502d8fd98094cccee69dbda0cfa2387c1983f14
+Size: 1268
+MD5Sum: 0074de2d3f0609af55561bda723ceb99
+SHA1: e06ff1c59a339ce72c666e51b4bd9dfa5481f4b2
+SHA256: 52b2297c007a546abcb4792c035715193139e7645ac663f8d19964a4c4adb372
+SHA512: a28555acf936645822d81ad6e4043c830740d02fe35a3150c5e37dcef73c8c4619eae0ab7852df86fc3e34d80da619433447b82df625d33052b377fc96afd78a
 
 Package: dictionary
 Architecture: all
@@ -67,11 +67,11 @@ Homepage: https://github.com/BHUTUU/dictionary
 Depends: python, python2, pv, sox, git, wget, curl
 Description: A dictionary made in bash and python to find meanings of any word esily using termux command line.
 Filename: dists/bhutuu/main/binary-all/dictionary.all.deb
-Size: 1352
-MD5Sum: 701b2ceea35657c77c72430074736b37
-SHA1: 0e1df1b56ba89b3c849b5548744bd88ad9758d8d
-SHA256: 29b256337ab203aacdd639e79f4832e47887fb56bc6499a1528ce0333112777b
-SHA512: 202326d393a44ed5dcbb8d58ce99409a76f26d87f74d8bb0dc574ed83815b5958cdd3c42f095957d922360906a66dab4828fff614e28d5b1653640147baa2341
+Size: 1356
+MD5Sum: 4c54fe66570f8b8a2c211e3e97f8bd69
+SHA1: a7b84fb78133d7a6546d4a11738256dd9bcb993d
+SHA256: 00e55ea60273ff34442b9d89ee9d0644dca60c6bd6058e062d17bc7f0e9f980d
+SHA512: 9118ef53be8546453357fb7b7ad13a2ef8971c43a5684f3a4eb2b9968d8714bf20545438c1683fa275eeebd1eda308edf446eb92ff32df2dee3dcbd057d3c679
 
 Package: liveserver
 Architecture: all
@@ -83,10 +83,10 @@ Depends: php, git, wget, curl
 Description: A program automating php server for localhost:8080.
 Filename: dists/bhutuu/main/binary-all/liveserver.all.deb
 Size: 1240
-MD5Sum: 69b47045c6d7b3dc32c67f34ba9f8aef
-SHA1: 22965273e36005de5fe6cb9d058d6b5a7511d3cf
-SHA256: 924de22dc5b0d9e80e642d1530b9e09d2a2d160c90689aab34cde153ab5c9abf
-SHA512: ef5b6f1612f2014cca420c3d12d0646369a76afdd214e894e97d39fa264f890a94c859cbff45a83884fcd18bae1105a4549edf417d80f2540439b1d0bbf41059
+MD5Sum: 4b68cc52fb4f2478eb31edfaf8416abd
+SHA1: bf887ea363b697a4d87bd8922fd8df1959d4625e
+SHA256: 3207624eaec420de58be156e3ec6b31e9db4bbda84ce759b40fd4be5b7634b5d
+SHA512: a09c9eab7605c26a1e5e1c219ba2831802091c9122c6079756eedc132ed22527ca57652bfe085ab2f9d70de068c5a1ef9317696f11cb3679fa2a885160b76359
 
 Package: metasploit
 Architecture: all
@@ -98,8 +98,8 @@ Depends: apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git,
 Description: Advanced open-source platform for developing, testing and using exploit code. (installer)
 Filename: dists/bhutuu/main/binary-all/metasploit.all.deb
 Size: 3136
-MD5Sum: 71c4ff2e9b996a0494c17a075886dbb2
-SHA1: a1319e0d1be31c7418e8dec96d364876b2585f3b
-SHA256: 64fa31ca6ac873fd4eec84499a300e8e8c05974db170fe0050a73c4d6d00312e
-SHA512: 34a61f5c4fe33c7d932952e91d88860e8361548352c33668bc8a55d28f2ed8da2a72d15fbcc03a2a5b95e2bc67c81212967692cb50334e6362477f14028cfde5
+MD5Sum: 4c4f2e66c0df3e3221c510bf28034b42
+SHA1: 520b924000ec59f1ef228a8ac9b8ed8df55cb9bb
+SHA256: a137779938a199db6372a5becbb7d7ccdd60e2c3f0e11da57c58c5774b5b8d06
+SHA512: a97e3971d814199028d85d9051d990272c586979eeb4e8c50e54f77e524f49a7c48cd3c29d81b3f339bad9085952b16d672d80cd8b4fcc60fb2da748687337ec
 
